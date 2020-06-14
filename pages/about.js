@@ -1,6 +1,6 @@
 import Layout from "components/layout";
 
-const TimelineItem = ({ right, left }) => {
+const TimelineItem = ({ right, left, image }) => {
   return (
     <div class="flex w-full flex-no-wrap flex-row items-center">
       <div
@@ -11,7 +11,7 @@ const TimelineItem = ({ right, left }) => {
         <div
           className="h-32"
           style={{
-            backgroundImage: "url('/img/illustrations/people.svg')",
+            backgroundImage: `url('${image}')`,
             backgroundSize: "cover",
           }}
         ></div>
@@ -29,7 +29,7 @@ const TimelineItem = ({ right, left }) => {
         <div
           className="h-32"
           style={{
-            backgroundImage: "url('/img/illustrations/people.svg')",
+            backgroundImage: `url('${image}')`,
             backgroundSize: "cover",
           }}
         ></div>
@@ -46,17 +46,20 @@ export default () => {
           <span class="text-primary">A</span>bout
         </h1>
         <p>
-          My name is Fynn Comerford and I’m currently studying Neuroscience at the University of Edinburgh. I am particularly interested in the development of stem cell and gene therapies.
-      
-          I also love venturing out into physics and philosophy, I am passionate about filmmaking and always up to any sorts of outdoor activity. 
+          My name is Fynn Comerford and I’m currently studying Neuroscience at
+          the University of Edinburgh. I am particularly interested in the
+          development of stem cell and gene therapies. I also love venturing out
+          into physics and philosophy, I am passionate about filmmaking and
+          always up to any sorts of outdoor activity.
         </p>
         <p>
-        Here, you can see a timeline as a brief overview of what I have done in recent years. 
+          Here, you can see a timeline as a brief overview of what I have done
+          in recent years.
         </p>
 
         <div class="w-full mt-20">
-          <TimelineItem left />
-          <TimelineItem right />
+          <TimelineItem left image="/img/illustrations/people.svg" />
+          <TimelineItem right image="/img/illustrations/reading.svg" />
         </div>
       </div>
     </Layout>
