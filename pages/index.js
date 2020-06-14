@@ -10,7 +10,7 @@ export default ({ initialQueriesData }) => {
       <div className="pl-18 lg:pl-32 leading-relaxed">
         <Typical
           steps={[
-            "Salut!",
+            "Salllut!",
             2000,
             "Ciao!",
             2000,
@@ -25,32 +25,32 @@ export default ({ initialQueriesData }) => {
           wrapper="h1"
         />
         <p className="mt-6">
-          I’m Ragnor. In case you don’t know me yet, feel free to check my{" "}
+         In case you don’t know me yet, feel free to check my{" "}
           <Link href="/about">
-            <a className="underline text-black">about</a>
+            <a className=" text-primary">about</a>
           </Link>{" "}
           page.
           <br />
-          Here, I occasionally write about{" "}
+          Here, you can find more information about my{" "}
           <Link href="/projects">
-            <a className="underline text-black">projects</a>
+            <a className="text-primary">projects</a>
           </Link>
-          &nbsp;I am working on and{" "}
+          &nbsp;{" "}
           <Link href="/thoughts/">
-            <a className="underline text-black">thoughts and ideas</a>
+            <a className=" text-primary">thoughts and ideas</a>
           </Link>
           &nbsp;I have on different&nbsp;topics.
           <br />I also compile a{" "}
           <Link href="/collections/">
-            <a className="underline text-black">collection</a>
+            <a className=" text-primary">collection</a>
           </Link>
           &nbsp;of books, movies, and articles I particularly like and
           recommend.
           <br />
           If you have an interesting project or just want to grab a coffee and
           chat, don’t hesitate to{" "}
-          <a className="underline text-black" href="mailto:hello@ragnor.co">
-            drop me a message
+          <a className="text-primary" href="comerford.fynn@gmail.com">
+            drop me a line
           </a>
           .
         </p>

@@ -17,6 +17,7 @@ module.exports = {
       primary: "#AA945F",
       secondary: "#FF8B8B",
       primlight: "#F9F7E8",
+      abricot: "#fcddc9",
 
       gray: {
         100: "#f7fafc",
@@ -29,6 +30,7 @@ module.exports = {
         800: "#2d3748",
         900: "#1a202c",
       },
+
       red: {
         100: "#fff5f5",
         200: "#fed7d7",

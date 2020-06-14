@@ -35,7 +35,7 @@ class MyDocument extends Document {
           />
           <script dangerouslySetInnerHTML={{ __html: this.renderSnippet() }} />
         </Head>
-        <body className="font-sans h-full w-full">
+        <body className="font-sans h-full w-full bg-abricot">
           <Main />
           <NextScript />
         </body>
