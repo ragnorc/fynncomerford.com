@@ -1,7 +1,7 @@
 {
-  "name": "Olympia",
+  "name": "Fynn",
   "version": 2,
-  "alias": ["ragnor.co"],
+  "alias": ["fynncomerford.com"],
   "build": {
     "env": {
       "SEGMENT_KEY": "@segment-key",
