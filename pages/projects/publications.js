@@ -7,7 +7,7 @@ export default () => {
       <div className="flex flex-col px-18 lg:px-24 w-full leading-relaxed">
         <div className="flex mb-20">
           <div>
-            <h1 className="text-5xl font-bold mb-8">Coursework</h1>
+            <h1 className="text-5xl font-bold mb-8">Publications</h1>
             <p>
               <strong>Type:</strong> Coursework
             </p>

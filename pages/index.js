@@ -10,27 +10,27 @@ export default ({ initialQueriesData }) => {
       <div className="pl-18 lg:pl-32 leading-relaxed">
         <Typical
           steps={[
-            "Salllut!",
+            "Bienvenue!",
             2000,
-            "Ciao!",
+            "Bienvenido!",
             2000,
             "Hola!",
             2000,
-            "Hello!",
+            "Welcome!",
             2000,
-            "!أهلاً",
+            "!أهْلاً وَسَهْلاً ",
             2000,
           ]}
           loop={Infinity}
           wrapper="h1"
         />
         <p className="mt-6">
-         In case you don’t know me yet, feel free to check my{" "}
+         Nice to meet you! In case you don’t know me yet, feel free to check out my{" "}
           <Link href="/about">
             <a className=" text-primary">about</a>
           </Link>{" "}
           page.
-          <br />
+         
           Here, you can find more information about my{" "}
           <Link href="/projects">
             <a className="text-primary">projects</a>
@@ -40,13 +40,13 @@ export default ({ initialQueriesData }) => {
             <a className=" text-primary">thoughts and ideas</a>
           </Link>
           &nbsp;I have on different&nbsp;topics.
-          <br />I also compile a{" "}
+          I also compile a{" "}
           <Link href="/collections/">
             <a className=" text-primary">collection</a>
           </Link>
           &nbsp;of books, movies, and articles I particularly like and
           recommend.
-          <br />
+        
           If you have an interesting project or just want to grab a coffee and
           chat, don’t hesitate to{" "}
           <a className="text-primary" href="comerford.fynn@gmail.com">

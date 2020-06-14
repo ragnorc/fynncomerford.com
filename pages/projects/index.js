@@ -8,7 +8,7 @@ export default () => {
     <Layout>
       <div className="pl-18 lg:pl-32 w-full leading-relaxed">
         <h1 className="text-5xl font-bold mb-12">
-          <span className="text-primary">P</span>rojects
+          <span className="text-primary">W</span>ork
         </h1>
         <Masonry
           className="w-auto flex"
@@ -26,7 +26,7 @@ export default () => {
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <Image className="w-1/5 h-auto" path="logos/epfl.svg" />
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Predikon</h2>
+                  <h2 className="text-lg">EdVenture Capital</h2>
                 </div>
               </div>
             </a>
@@ -38,7 +38,7 @@ export default () => {
                   <Image className="w-1/10 h-auto" path="logos/hyped.png" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Hyperloop</h2>
+                  <h2 className="text-lg">Magious</h2>
                 </div>
               </div>
             </a>
@@ -50,11 +50,38 @@ export default () => {
                   <Image className="w-1/6 h-auto" path="logos/edinburgh.png" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Coursework</h2>
+                  <h2 className="text-lg">Publications
+              </h2>
                 </div>
               </div>
             </a>
           </Link>
+             <Link href="/projects/coursework">
+            <a>
+              <div className="shadow-black rounded-lg mb-6">
+                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
+                  <Image className="w-1/6 h-auto" path="logos/edinburgh.png" />
+
+                  <div className="border-l-2 h-10 border-black mx-5"></div>
+                  <h2 className="text-lg">Publications
+              </h2>
+                </div>
+              </div>
+            </a>
+          </Link>   <Link href="/projects/coursework">
+            <a>
+              <div className="shadow-black rounded-lg mb-6">
+                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
+                  <Image className="w-1/6 h-auto" path="logos/edinburgh.png" />
+
+                  <div className="border-l-2 h-10 border-black mx-5"></div>
+                  <h2 className="text-lg">Comerford Filmmaking
+              </h2>
+                </div>
+              </div>
+            </a>
+          </Link>
+            
         </Masonry>
       </div>
     </Layout>
