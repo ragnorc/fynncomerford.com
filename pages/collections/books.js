@@ -11,12 +11,45 @@ export default ({ items, heading }) => {
           ooks
         </h1>
 
-        <a target="_blank" class="underline">
-          Buch 1
+        <a target="_blank" class="">
+          Call me by your name, André Aciman
           <br />
         </a>
-        <a target="_blank" class="underline">
-          Buch 2
+        <a target="_blank" class="">
+          A crack in creation, Jennifer A. Doudna 
+      
+          <br />
+        </a>
+        <a target="_blank" class="">
+          The man who mistoom his wife for a hat, Oliver Sacks
+
+ 
+  
+          <br />
+        </a>
+        <a target="_blank" class="">
+          We should all be feminists, Chimamanda Ngozi Adichie
+      
+          <br />
+        </a>
+        <a target="_blank" class="">
+          Homo Deus, Yuval Noah Harari 
+      
+          <br />
+        </a>
+        <a target="_blank" class="">
+          Shake hands with the devil: The Failure of Humanity in Rwanda, Roméo Dallaire 
+      
+          <br />
+        </a>
+        <a target="_blank" class="">
+          The Gene, Siddhartha Mukherje
+      
+          <br />
+        </a>
+        <a target="_blank" class="">
+          The Omnivores Dilemma, Michael Pollan 
+      
           <br />
         </a>
       </div>
