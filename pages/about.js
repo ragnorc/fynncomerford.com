@@ -1,21 +1,27 @@
 import Layout from "components/layout";
+import { useMediaQuery } from "react-responsive";
 
-const TimelineItem = ({ right, left, image }) => {
+const TimelineItem = ({ right, left, image, text }) => {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
   return (
     <div class="flex w-full flex-no-wrap flex-row items-center">
-      <div
-        class={`${
-          left ? "visible" : "invisible"
-        } h-48 text-gray-700 rounded shadow-black w-1/2 flex flex-col`}
-      >
+      {isMobile ? null : (
         <div
-          className="h-32"
-          style={{
-            backgroundImage: `url('${image}')`,
-            backgroundSize: "cover",
-          }}
-        ></div>
-      </div>
+          class={`${
+            left ? "visible" : "invisible"
+          } h-48 text-gray-700 rounded shadow-black w-1/2 flex flex-col`}
+        >
+          <div
+            className="h-32"
+            style={{
+              backgroundImage: `url('${image}')`,
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <div className="h-16 flex items-center pl-5">{text}</div>
+        </div>
+      )}
 
       <div class="px-10 h-72 relative flex justify-center items-center">
         <div class="bg-gray-700 h-full w-0.5 flex justify-center items-center"></div>
@@ -24,7 +30,7 @@ const TimelineItem = ({ right, left, image }) => {
       <div
         class={`${
           right ? "visible" : "md:invisible"
-        } h-48 text-gray-700 rounded shadow-black w-1/2 flex flex-col`}
+        } h-48 text-gray-700 rounded shadow-black w-2/3 md:w-1/2 flex flex-col`}
       >
         <div
           className="h-32"
@@ -33,6 +39,7 @@ const TimelineItem = ({ right, left, image }) => {
             backgroundSize: "cover",
           }}
         ></div>
+        <div className="h-16 flex items-center pl-5">{text}</div>
       </div>
     </div>
   );
@@ -58,8 +65,16 @@ export default () => {
         </p>
 
         <div class="w-full mt-20">
-          <TimelineItem left image="/img/illustrations/people.svg" />
-          <TimelineItem right image="/img/illustrations/reading.svg" />
+          <TimelineItem
+            left
+            image="/img/illustrations/people.svg"
+            text="Achievement 1"
+          />
+          <TimelineItem
+            right
+            image="/img/illustrations/reading.svg"
+            text="Achievement 2"
+          />
         </div>
       </div>
     </Layout>
