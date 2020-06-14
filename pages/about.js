@@ -66,12 +66,12 @@ export default () => {
           Here, you can see a timeline as a brief overview of what I have done
           in recent years.
         </p>
+        <div class="w-full mt-20">
         <TimelineItem
           left
           image="/img/illustrations/reading.svg"
           text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
         />
-        <div class="w-full mt-20">
           <TimelineItem
             left
             image="/img/illustrations/people.svg"
