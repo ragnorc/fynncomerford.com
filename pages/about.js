@@ -46,20 +46,12 @@ export default () => {
           <span class="text-primary">A</span>bout
         </h1>
         <p>
-          My name is Ragnor Comerford and I’m currently studying Artificial
-          Intelligence at the University of Edinburgh with the main research
-          interest at the intersection of Artificial Intelligence, Computer
-          Science, Neuroscience and Biology.
+          My name is Fynn Comerford and I’m currently studying Neuroscience at the University of Edinburgh. I am particularly interested in the development of stem cell and gene therapies.
+      
+          I also love venturing out into physics and philosophy, I am passionate about filmmaking and always up to any sorts of outdoor activity. 
         </p>
         <p>
-          I’m intrigued by languages, philosophy, science and design and
-          passionate about the development of global policies and federalism to
-          tackle our world’s issues such as poverty and climate change.
-        </p>
-        <p>
-          I love to travel, play the guitar and do all kinds of sports and I am
-          constantly seeking to be inspired, to solve the truly important
-          problems and to be surrounded by people I love.
+        Here, you can see a timeline as a brief overview of what I have done in recent years. 
         </p>
 
         <div class="w-full mt-20">
