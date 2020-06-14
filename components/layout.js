@@ -30,7 +30,7 @@ Router.events.on("routeChangeComplete", (url) => {
   window.analytics.page(url);
 });
 
-function Layout({ title = "Ragnor Comerford", children }) {
+function Layout({ title = "Fynn Comerford", children }) {
   const wave = useRef();
   const [isOpen, open] = useState(false);
   useEffect(() => {
@@ -131,7 +131,7 @@ function Layout({ title = "Ragnor Comerford", children }) {
               </a>
             </div>
             <p className="mt-12 text-gray-700">
-              Ragnor Comerford © 2020 All rights reserved.
+              Fynn Comerford © 2020 All rights reserved.
             </p>
           </div>
         </div>
