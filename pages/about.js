@@ -24,7 +24,10 @@ const TimelineItem = ({ right, left, image, text }) => {
       )}
 
       <div class="px-10 h-72 relative flex justify-center items-center">
-        <div class="bg-gray-700 h-full w-0.5 flex justify-center items-center"></div>
+        <div
+          class="bg-gray-700 h-full flex justify-center items-center"
+          style={{ width: "0.125rem" }}
+        ></div>
         <button class="h-2 w-2 bg-gray-700 absolute text-white font-bold rounded-full"></button>
       </div>
       <div
@@ -64,10 +67,10 @@ export default () => {
           in recent years.
         </p>
         <TimelineItem
-            left
-            image="/img/illustrations/reading.svg"
-            text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
-          />
+          left
+          image="/img/illustrations/reading.svg"
+          text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
+        />
         <div class="w-full mt-20">
           <TimelineItem
             left
@@ -79,7 +82,7 @@ export default () => {
             image="/img/illustrations/reading.svg"
             text="2017 Magious: Shortly after graduating, a German publishing company started contracted my startup I had founded in highschool"
           />
-           <TimelineItem
+          <TimelineItem
             left
             image="/img/illustrations/reading.svg"
             text="2017 High school: I graduated as the top student of my year with a 4.0 GPA [1.0 Abitur]."
