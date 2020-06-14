@@ -1,5 +1,43 @@
 import Layout from "components/layout";
 
+const TimelineItem = ({ right, left }) => {
+  return (
+    <div class="flex w-full flex-no-wrap flex-row items-center">
+      <div
+        class={`${
+          left ? "visible" : "invisible"
+        } h-48 text-gray-700 rounded shadow-black w-1/2 flex flex-col`}
+      >
+        <div
+          className="h-32"
+          style={{
+            backgroundImage: "url('/img/illustrations/people.svg')",
+            backgroundSize: "cover",
+          }}
+        ></div>
+      </div>
+
+      <div class="px-10 h-72 relative flex justify-center items-center">
+        <div class="bg-gray-700 h-full w-0.5 flex justify-center items-center"></div>
+        <button class="h-2 w-2 bg-gray-700 absolute text-white font-bold rounded-full"></button>
+      </div>
+      <div
+        class={`${
+          right ? "visible" : "md:invisible"
+        } h-48 text-gray-700 rounded shadow-black w-1/2 flex flex-col`}
+      >
+        <div
+          className="h-32"
+          style={{
+            backgroundImage: "url('/img/illustrations/people.svg')",
+            backgroundSize: "cover",
+          }}
+        ></div>
+      </div>
+    </div>
+  );
+};
+
 export default () => {
   return (
     <Layout>
@@ -23,6 +61,11 @@ export default () => {
           constantly seeking to be inspired, to solve the truly important
           problems and to be surrounded by people I love.
         </p>
+
+        <div class="w-full mt-20">
+          <TimelineItem left />
+          <TimelineItem right />
+        </div>
       </div>
     </Layout>
   );

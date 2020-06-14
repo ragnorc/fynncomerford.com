@@ -551,7 +551,7 @@ module.exports = {
     textTransform: ["responsive"],
     userSelect: ["responsive"],
     verticalAlign: ["responsive"],
-    visibility: ["responsive"],
+    visibility: ["responsive", "odd", "even"],
     whitespace: ["responsive"],
     width: ["responsive"],
     wordBreak: ["responsive"],
@@ -566,5 +566,5 @@ module.exports = {
     gridColumnStartEnd: ["responsive", "hover"],
   },
   corePlugins: {},
-  plugins: [require("tailwindcss-transitions")()],
+  plugins: [],
 };
