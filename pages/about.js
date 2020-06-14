@@ -63,17 +63,26 @@ export default () => {
           Here, you can see a timeline as a brief overview of what I have done
           in recent years.
         </p>
-
+        <TimelineItem
+            left
+            image="/img/illustrations/reading.svg"
+            text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
+          />
         <div class="w-full mt-20">
           <TimelineItem
             left
             image="/img/illustrations/people.svg"
-            text="Achievement 1"
+            text="In 2018, I started my first year of Neuroscience at the University of Edinburgh. I finished the year top of my class with an average of 90,3%."
           />
           <TimelineItem
             right
             image="/img/illustrations/reading.svg"
-            text="Achievement 2"
+            text="2017 Magious: Shortly after graduating, a German publishing company started contracted my startup I had founded in highschool"
+          />
+           <TimelineItem
+            left
+            image="/img/illustrations/reading.svg"
+            text="2017 High school: I graduated as the top student of my year with a 4.0 GPA [1.0 Abitur]."
           />
         </div>
       </div>
