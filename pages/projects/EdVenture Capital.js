@@ -16,7 +16,7 @@ export default () => {
 
   return (
     <Layout>
-      <div className="flex flex-col px-18 lg:px-24 w-full leading-relaxed">
+      <div className="bg-white flex flex-col px-18 lg:px-24 w-full leading-relaxed">
         <div className="flex mb-20">
           <Image
             style={{ boxShadow: "0px 0px 45px 10px rgba(45, 56, 104, 0.5" }}

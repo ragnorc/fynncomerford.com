@@ -18,7 +18,7 @@ class MyDocument extends Document {
             rel="shortcut icon"
             href="https://ik.imagekit.io/ragnor/logos/rc.png"
           />
-          <script dangerouslySetInnerHTML={{ __html: this.renderSnippet() }} />
+         
         </Head>
         <body className="font-sans h-full w-full bg-abricot">
           <Main />
