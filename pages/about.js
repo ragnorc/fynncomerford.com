@@ -10,7 +10,7 @@ const TimelineItem = ({ right, left, image, text }) => {
         <div
           class={`${
             left ? "visible" : "invisible"
-          } h-48 text-gray-700 rounded shadow-black w-1/2 flex flex-col`}
+          } h-56 text-gray-700 rounded shadow-black w-1/2 flex flex-col`}
         >
           <div
             className="h-32"
@@ -19,7 +19,7 @@ const TimelineItem = ({ right, left, image, text }) => {
               backgroundSize: "cover",
             }}
           ></div>
-          <div className="h-16 flex items-center pl-5">{text}</div>
+          <div className="h-24 flex items-center px-5">{text}</div>
         </div>
       )}
 
@@ -33,7 +33,7 @@ const TimelineItem = ({ right, left, image, text }) => {
       <div
         class={`${
           right ? "visible" : "md:invisible"
-        } h-48 text-gray-700 rounded shadow-black w-2/3 md:w-1/2 flex flex-col`}
+        } h-56 text-gray-700 rounded shadow-black w-2/3 md:w-1/2 flex flex-col`}
       >
         <div
           className="h-32"
@@ -42,7 +42,7 @@ const TimelineItem = ({ right, left, image, text }) => {
             backgroundSize: "cover",
           }}
         ></div>
-        <div className="h-16 flex items-center pl-5">{text}</div>
+        <div className="h-24 flex items-center px-5">{text}</div>
       </div>
     </div>
   );
@@ -73,17 +73,17 @@ export default () => {
           text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
         />
           <TimelineItem
-            left
-            image="/img/illustrations/people.svg"
+            right
+            image="/img/illustrations/reading.svg"
             text="In 2018, I started my first year of Neuroscience at the University of Edinburgh. I finished the year top of my class with an average of 90,3%."
           />
           <TimelineItem
-            right
+            left
             image="/img/illustrations/reading.svg"
             text="2017 Magious: Shortly after graduating, a German publishing company started contracted my startup I had founded in highschool"
           />
           <TimelineItem
-            left
+            right
             image="/img/illustrations/reading.svg"
             text="2017 High school: I graduated as the top student of my year with a 4.0 GPA [1.0 Abitur]."
           />
