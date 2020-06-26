@@ -5,7 +5,7 @@ const TimelineItem = ({ right, left, image, text }) => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
-    <div className="flex w-full flex-no-wrap flex-row items-center">
+    <div className"flex w-full flex-no-wrap flex-row items-center">
       {isMobile ? null : (
         <div
           className{`${
@@ -23,12 +23,12 @@ const TimelineItem = ({ right, left, image, text }) => {
         </div>
       )}
 
-      <div className="px-10 h-72 relative flex justify-center items-center">
+      <div className"px-10 h-72 relative flex justify-center items-center">
         <div
-          className="bg-gray-700 h-full flex justify-center items-center"
+          className"bg-gray-700 h-full flex justify-center items-center"
           style={{ width: "0.125rem" }}
         ></div>
-        <button className="h-2 w-2 bg-gray-700 absolute text-white font-bold rounded-full"></button>
+        <button className"h-2 w-2 bg-gray-700 absolute text-white font-bold rounded-full"></button>
       </div>
       <div
         className{`${
@@ -51,9 +51,9 @@ const TimelineItem = ({ right, left, image, text }) => {
 export default () => {
   return (
     <Layout>
-      <div className="pl-18 lg:pl-32 md:w-3/4 lg:w-3/4 leading-relaxed">
-        <h1 className="text-5xl font-bold mb-4">
-          <span className="text-primary">A</span>bout
+      <div className"pl-18 lg:pl-32 md:w-3/4 lg:w-3/4 leading-relaxed">
+        <h1 className"text-5xl font-bold mb-4">
+          <span className"text-primary">A</span>bout
         </h1>
         <p>
           My name is Fynn Comerford and I’m currently studying Neuroscience at
@@ -66,7 +66,7 @@ export default () => {
           Here, you can see a timeline as a brief overview of what I have done
           in recent years.
         </p>
-        <div className="w-full mt-20">
+        <div className"w-full mt-20">
         <TimelineItem
           left
           image="/img/illustrations/reading.svg"
