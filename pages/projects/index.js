@@ -8,7 +8,7 @@ export default () => {
     <Layout>
       <div className="pl-18 lg:pl-32 w-full leading-relaxed">
         <h1 className="text-5xl font-bold mb-12">
-          <span className="text-primary">W</span>ork
+          <span className="text-primary">w</span>ork
         </h1>
         <Masonry
           className="w-auto flex"

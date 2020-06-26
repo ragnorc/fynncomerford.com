@@ -20,7 +20,7 @@ export default () => {
       <div className="flex">
         <div className="pl-18 lg:pl-32 w-full leading-relaxed">
           <h1 className="text-5xl font-bold mb-12">
-            <span className="text-primary">C</span>ollections
+            <span className="text-primary">c</span>ollections
           </h1>
           <Masonry
             className="w-auto flex"

@@ -10,7 +10,7 @@ const TimelineItem = ({ right, left, image, text }) => {
         <div
           className={`${
             left ? "visible" : "invisible"
-          } h-56 text-gray-700 rounded shadow-black w-1/2 flex flex-col`}
+          } h-56 text-gray-700 rounded-xl shadow-black w-1/2 flex flex-col`}
         >
           <div
             className="h-32"
@@ -33,7 +33,7 @@ const TimelineItem = ({ right, left, image, text }) => {
       <div
         className={`${
           right ? "visible" : "md:invisible"
-        } h-56 text-gray-700 rounded shadow-black w-2/3 md:w-1/2 flex flex-col`}
+        } h-56 text-gray-700 rounded-xl shadow-black w-2/3 md:w-1/2 flex flex-col`}
       >
         <div
           className="h-32"
@@ -53,7 +53,7 @@ export default () => {
     <Layout>
       <div className="pl-18 lg:pl-32 md:w-3/4 lg:w-3/4 leading-relaxed">
         <h1 className="text-5xl font-bold mb-4">
-          <span className="text-primary">A</span>bout
+          <span className="text-primary">a</span>bout
         </h1>
         <p>
           My name is Fynn Comerford and I’m currently studying Neuroscience at

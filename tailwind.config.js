@@ -14,7 +14,7 @@ module.exports = {
       transparent: "transparent",
       black: "#000",
       white: "#fff",
-      primary: "#AA945F",
+      primary: "#aa2e40",
       secondary: "#FF8B8B",
       primlight: "#F9F7E8",
       abricot: "#fcddc9",
@@ -206,7 +206,7 @@ module.exports = {
     },
     boxShadow: {
       default: "0px 0px 30px 5px",
-      black: "0px 0px 45px 0px rgba(0, 0, 0, 0.15)",
+      black: "0px 0px 45px 0px rgba(0, 0, 0, 0.3)",
       //primary: "0px 0px 45px 0px rgba(7,92,252, 0.8)",
       md: "0px 0px 45px 0px",
       lg: "0px 0px 45px 10px",

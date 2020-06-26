@@ -7,7 +7,7 @@ export default ({ items, heading }) => {
     <Layout>
       <div className="pl-18 lg:pl-32 w-2/3 leading-relaxed">
         <h1 className="text-5xl font-bold mb-5">
-          <span className="text-primary">B</span>
+          <span className="text-primary">b</span>
           ooks
         </h1>
 

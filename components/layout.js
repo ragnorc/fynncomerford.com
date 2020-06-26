@@ -26,9 +26,6 @@ library.add(
   faLinkedinIn
 );
 
-Router.events.on("routeChangeComplete", (url) => {
-  window.analytics.page(url);
-});
 
 function Layout({ title = "Fynn Comerford", children }) {
   const wave = useRef();
@@ -88,8 +85,8 @@ function Layout({ title = "Fynn Comerford", children }) {
                 >
                   resume
                 </a>
-                <ActiveLink activeClassName="text-primary" href="/graphql">
-                  <a className={`ml-5 hover:text-primary`}>api</a>
+                <ActiveLink activeClassName="text-primary" href="/blog">
+                  <a className={`ml-5 hover:text-primary`}>blog</a>
                 </ActiveLink>
               </div>
             </div>
@@ -163,8 +160,8 @@ function Layout({ title = "Fynn Comerford", children }) {
             >
               resume
             </a>
-            <ActiveLink activeClassName="text-primary" href="/graphql">
-              <a>api</a>
+            <ActiveLink activeClassName="text-primary" href="/blog">
+              <a>blog</a>
             </ActiveLink>
           </div>
         </div>

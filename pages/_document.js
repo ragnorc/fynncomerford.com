@@ -20,7 +20,7 @@ class MyDocument extends Document {
           />
          
         </Head>
-        <body className="font-sans h-full w-full bg-abricot">
+        <body className="font-sans h-full w-full" style={{  backgroundColor: "rgba(252, 221, 201, 0.5)"}}>
           <Main />
           <NextScript />
         </body>
