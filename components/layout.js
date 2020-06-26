@@ -26,9 +26,7 @@ library.add(
   faLinkedinIn
 );
 
-Router.events.on("routeChangeComplete", (url) => {
-  window.analytics.page(url);
-});
+
 
 function Layout({ title = "Fynn Comerford", children }) {
   const wave = useRef();
@@ -76,7 +74,7 @@ function Layout({ title = "Fynn Comerford", children }) {
                   <a className={`ml-5 hover:text-primary`}>about</a>
                 </ActiveLink>
                 <ActiveLink activeClassName="text-primary" href="/projects">
-                  <a className={`ml-5 hover:text-primary`}>projects</a>
+                  <a className={`ml-5 hover:text-primary`}>work</a>
                 </ActiveLink>
                 <ActiveLink activeClassName="text-primary" href="/collections">
                   <a className={`ml-5 hover:text-primary`}>collections</a>
@@ -89,7 +87,7 @@ function Layout({ title = "Fynn Comerford", children }) {
                   resume
                 </a>
                 <ActiveLink activeClassName="text-primary" href="/graphql">
-                  <a className={`ml-5 hover:text-primary`}>api</a>
+                  <a className={`ml-5 hover:text-primary`}>blog</a>
                 </ActiveLink>
               </div>
             </div>
@@ -99,12 +97,7 @@ function Layout({ title = "Fynn Comerford", children }) {
         <div className="flex items-center justify-center py-10 mt-40">
           <div className="flex flex-col items-center justify-center w-full">
             <div className="flex">
-              <a href="https://ragnor.co/github" target="_blank">
-                <FontAwesomeIcon
-                  className="text-2xl md:text-2.5xl mx-6"
-                  icon={["fab", "github"]}
-                />
-              </a>
+             
               <a href="https://ragnor.co/twitter" target="_blank">
                 <FontAwesomeIcon
                   className="text-2xl md:text-2.5xl mx-6"

@@ -22,7 +22,7 @@ export default () => {
         >
           <Link href="/projects/predikon">
             <a>
-              <div className="shadow-black rounded-lg mb-6">
+              <div className="shadow-black rounded-lg bg-gray-100 mb-6">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <Image className="w-1/5 h-auto" path="logos/epfl.svg" />
                   <div className="border-l-2 h-10 border-black mx-5"></div>
@@ -33,7 +33,7 @@ export default () => {
           </Link>
           <Link href="/projects/hyped">
             <a>
-              <div className="shadow-black rounded-lg mb-6">
+              <div className="shadow-black bg-gray-100 rounded-lg  mb-6">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <Image className="w-1/10 h-auto" path="logos/hyped.png" />
 
@@ -45,7 +45,7 @@ export default () => {
           </Link>
           <Link href="/projects/coursework">
             <a>
-              <div className="shadow-black rounded-lg mb-6">
+              <div className="shadow-black rounded-lg mb-6 bg-gray-100">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <Image className="w-1/6 h-auto" path="logos/edinburgh.png" />
 
@@ -58,7 +58,7 @@ export default () => {
           </Link>
              <Link href="/projects/coursework">
             <a>
-              <div className="shadow-black rounded-lg mb-6">
+              <div className="shadow-black rounded-lg mb-6 bg-gray-100">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <Image className="w-1/6 h-auto" path="logos/edinburgh.png" />
 
@@ -70,7 +70,7 @@ export default () => {
             </a>
           </Link>   <Link href="/projects/coursework">
             <a>
-              <div className="shadow-black rounded-lg mb-6">
+              <div className="shadow-black rounded-lg mb-6 bg-gray-100">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <Image className="w-1/6 h-auto" path="logos/edinburgh.png" />
 
