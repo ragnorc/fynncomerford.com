@@ -68,7 +68,7 @@ export default () => {
                 </div>
               </div>
             </a>
-          </Link>   <Link href="/projects/coursework">
+          </Link>   <Link href="/work/films">
             <a>
               <div className="shadow-black rounded-lg mb-6 bg-gray-100">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
