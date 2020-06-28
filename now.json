@@ -13,56 +13,5 @@
       "src": "package.json",
       "use": "@now/next"
     }
-  ],
-  "routes": [
-    {
-      "src": "/github",
-      "status": 301,
-      "headers": { "Location": "https://github.com/ragnorc" }
-    },
-    {
-      "src": "/twitter",
-      "status": 301,
-      "headers": { "Location": "https://twitter.com/ragnorco" }
-    },
-    {
-      "src": "/linkedin",
-      "status": 301,
-      "headers": { "Location": "https://www.linkedin.com/in/ragnorcomerford" }
-    },
-    {
-      "src": "/instagram",
-      "status": 301,
-      "headers": { "Location": "https://www.instagram.com/ragnorco" }
-    },
-    {
-      "src": "/pinterest",
-      "status": 301,
-      "headers": { "Location": "https://www.pinterest.com/ragnorco" }
-    },
-    {
-      "src": "/predikon",
-      "status": 301,
-      "headers": { "Location": "https://ragnor.co/projects/predikon" }
-    },
-    {
-      "src": "/hyped",
-      "status": 301,
-      "headers": { "Location": "https://ragnor.co/projects/hyped" }
-    },
-    {
-      "src": "/cv",
-      "status": 301,
-      "headers": {
-        "Location": "https://storage.ragnor.co/ResumeRagnorComerford.pdf"
-      }
-    },
-    {
-      "src": "/resume",
-      "status": 301,
-      "headers": {
-        "Location": "https://storage.ragnor.co/ResumeRagnorComerford.pdf"
-      }
-    }
   ]
 }

@@ -32,7 +32,7 @@ export default ({ initialQueriesData }) => {
           page.
          
           Here, you can find more information about my{" "}
-          <Link href="/projects">
+          <Link href="/work">
             <a className="text-primary">projects</a>
           </Link>
           &nbsp;{" "}
