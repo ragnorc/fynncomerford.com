@@ -81,7 +81,7 @@ function Layout({ title = "Fynn Comerford", children }) {
                 <a
                   target="_blank"
                   className={`ml-5 hover:text-primary`}
-                  href="https://storage.ragnor.co/ResumeRagnorComerford.pdf"
+                  href="https://drive.google.com/file/d/10QeLSrMjPpylTYTI2SVamUvLMkPVmo42/view?usp=sharing"
                 >
                   resume
                 </a>

@@ -5,13 +5,13 @@ import { Book, Video, Zap, User } from "react-feather";
 
 const ListItem = ({ href, title, icon, image }) => {
   return (
-    <Link as={href} href="">
+    <Link as={href} href="/blog/blogpost1">
       <a className="h-112 shadow-black rounded-xl mb-6 flex items-center justify-center relative" style={{
               backgroundImage: `url('${image}')`,
               backgroundSize: "cover",
             }}>
         <div className="h-32 bg-white absolute bottom-0 mb-4 rounded-xl w-11/12 pt-5 flex flex-col items-center" >
-        <p className="text-xl">Travelling is the discovery of life</p>
+        <p className="text-xl">Reality: A controlled hallucination?</p>
         <p className=" absolute text-gray-500 text-xs bottom-0 right-0 mb-3 mr-4">3 DAYS AGO</p>
         <p className=" absolute text-gray-500 text-xs bottom-0 left-0 mb-3 ml-4">2 MIN READ</p>
         </div>
