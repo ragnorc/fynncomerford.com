@@ -12,43 +12,51 @@ export default ({ items, heading }) => {
         </h1>
 
         <a target="_blank" className="">
-          Call me by your name, André Aciman
+        
+          <span class="italic"> Call me by your name, </span>
+André Aciman
           <br />
         </a>
+        
         <a target="_blank" className="">
-          A crack in creation, Jennifer A. Doudna 
+         <span class="italic"> A crack in creation, </span>
+           Jennifer A. Doudna 
       
           <br />
         </a>
         <a target="_blank" className="">
-          The man who mistoom his wife for a hat, Oliver Sacks
+        <span class="italic"> The man who mistook his wife for a hat, </span>
+         Oliver Sacks
 
  
   
           <br />
         </a>
         <a target="_blank" className="">
-          We should all be feminists, Chimamanda Ngozi Adichie
+         <span class="italic"> We should all be feminists,</span> Chimamanda Ngozi Adichie
       
           <br />
         </a>
         <a target="_blank" className="">
-          Homo Deus, Yuval Noah Harari 
+          <span class="italic">Homo Deus and Homo Sapiens,</span> Yuval Noah Harari 
       
           <br />
         </a>
         <a target="_blank" className="">
-          Shake hands with the devil: The Failure of Humanity in Rwanda, Roméo Dallaire 
+          <span class="italic">Shake hands with the devil: The Failure of Humanity in Rwanda,</span> Roméo Dallaire 
       
           <br />
         </a>
         <a target="_blank" className="">
-          The Gene, Siddhartha Mukherje
+          <span class="italic">The Gene,</span> Siddhartha Mukherje
       
           <br />
         </a>
         <a target="_blank" className="">
-          The Omnivores Dilemma, Michael Pollan 
+        <span class="italic">Deep Medicine,</span> Eric Topol
+        <br />
+        <a target="_blank" className="">
+          <span class="italic">The Omnivores Dilemma,</span> Michael Pollan 
       
           <br />
         </a>

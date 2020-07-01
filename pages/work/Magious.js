@@ -4,7 +4,7 @@ import Layout from "components/layout";
 export default () => {
   return (
     <Layout>
-      <div className="flex flex-col px-18 lg:px-24 w-full leading-relaxed">
+      <div className="flex flex-col px-18 lg:px-24 w-full leading-relaxed ">
         <div className="flex mb-20">
           <div>
             <h1 className="text-5xl font-bold mb-8">Magious</h1>

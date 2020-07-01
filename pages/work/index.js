@@ -24,9 +24,9 @@ export default () => {
             <a>
               <div className="shadow-black rounded-lg bg-gray-100 mb-6">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <Image className="w-1/5 h-auto" path="logos/epfl.svg" />
-                  <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">EdVenture Capital</h2>
+                  <img className="w-1/5 h-auto " src="/img/illustrations/magiouslogo.jpg" />
+                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
+                  <h2 className="text-lg">Magious</h2>
                 </div>
               </div>
             </a>
@@ -38,7 +38,7 @@ export default () => {
                   <Image className="w-1/10 h-auto" path="logos/hyped.png" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Magious</h2>
+                  <h2 className="text-lg">EdVenture Capital</h2>
                 </div>
               </div>
             </a>
@@ -63,7 +63,7 @@ export default () => {
                   <Image className="w-1/6 h-auto" path="logos/edinburgh.png" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Publications
+                  <h2 className="text-lg">H2 Ventures
               </h2>
                 </div>
               </div>

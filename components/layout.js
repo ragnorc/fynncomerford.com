@@ -62,7 +62,7 @@ function Layout({ title = "Fynn Comerford", children }) {
           <header className="mb-24">
             <div className="flex h-24 items-center justify-between">
               <Link href="/">
-                <Image className="h-12" path="logos/rc.png" />
+                <img className="h-6" src="/img/illustrations/output-onlinepngtools.png" />
               </Link>
 
               <div className="text-black  flex items-center justify-between hidden lg:block xl:block">
@@ -151,7 +151,7 @@ function Layout({ title = "Fynn Comerford", children }) {
             <a
               target="_blank"
               className={`ml-5 hover:text-primary`}
-              href="https://storage.ragnor.co/ResumeRagnorComerford.pdf"
+              href="https://drive.google.com/file/d/10QeLSrMjPpylTYTI2SVamUvLMkPVmo42/view?usp=sharing"
             >
               resume
             </a>

@@ -14,7 +14,7 @@ export default ({ initialQueriesData }) => {
             2000,
             "Bienvenido!",
             2000,
-            "Hola!",
+            "Benvenuti!",
             2000,
             "Welcome!",
             2000,
@@ -25,21 +25,21 @@ export default ({ initialQueriesData }) => {
           wrapper="h1"
         />
         <p className="mt-6">
-         Nice to meet you! In case you don’t know me yet, feel free to check out my{" "}
+         Thanks for visiting my page.  In case you don’t know me yet, feel free to check out my{" "}
           <Link href="/about">
             <a className=" text-primary">about</a>
           </Link>{" "}
           page.
          
-          Here, you can find more information about my{" "}
+          I have outlined some of the {" "}
           <Link href="/work">
-            <a className="text-primary">projects</a>
+            <a className="text-primary">projects </a>
           </Link>
-          &nbsp;{" "}
-          <Link href="/thoughts/">
-            <a className=" text-primary">thoughts and ideas</a>
+          I am working on. On my 
+          <Link href="/blog">
+            <a className=" text-primary"> blog </a>
           </Link>
-          &nbsp;I have on different&nbsp;topics.
+           you can read a bit about my thoughts as well as topics I am currently interested in.&nbsp;
           I also compile a{" "}
           <Link href="/collections/">
             <a className=" text-primary">collection</a>
@@ -54,7 +54,7 @@ export default ({ initialQueriesData }) => {
           </a>
           .
         </p>
-        <img src="/img/signature.png" className="h-24 mt-8" />
+        
       </div>
     </Layout>
   );

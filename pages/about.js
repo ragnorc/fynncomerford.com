@@ -17,6 +17,9 @@ const TimelineItem = ({ right, left, image, text }) => {
             style={{
               backgroundImage: `url('${image}')`,
               backgroundSize: "cover",
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
             }}
           ></div>
           <div className="h-24 flex items-center px-5">{text}</div>
@@ -39,7 +42,9 @@ const TimelineItem = ({ right, left, image, text }) => {
           className="h-32"
           style={{
             backgroundImage: `url('${image}')`,
-            backgroundSize: "cover",
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
           }}
         ></div>
         <div className="h-24 flex items-center px-5">{text}</div>
@@ -57,7 +62,7 @@ export default () => {
         </h1>
         <p>
           My name is Fynn Comerford and I’m currently studying Neuroscience at
-          the University of Edinburgh. I am particularly interested in the
+          the University of Edinburgh. Professionally, I am particularly interested in the
           development of stem cell and gene therapies. I also love venturing out
           into physics and philosophy, I am passionate about filmmaking and
           always up to any sorts of outdoor activity.
@@ -68,26 +73,33 @@ export default () => {
         </p>
         <div className="w-full mt-20">
         <TimelineItem
+          right
+          image="/img/illustrations/filming.svg"
+          text="Meanwhile, I developed a great passion for filmmaking. You can see some of my clips here." 
+        />
+        <div className="w-full mt-20">
+        <TimelineItem
           left
-          image="/img/illustrations/reading.svg"
-          text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
+          image="/img/illustrations/doctor.svg"
+          text="2019 For the second year of my studies, I transferred to the University of Edinburgh. You can see on LinkedIn which course options I chose."
         />
           <TimelineItem
             right
-            image="/img/illustrations/reading.svg"
+            image="/img/illustrations/exam.svg"
             text="In 2018, I started my first year of Neuroscience at the University of Edinburgh. I finished the year top of my class with an average of 90,3%."
           />
           <TimelineItem
             left
-            image="/img/illustrations/reading.svg"
-            text="2017 Magious: Shortly after graduating, a German publishing company started contracted my startup I had founded in highschool"
+            image="/img/illustrations/magiousbook.svg"
+            text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/">Find out more.</a></p>}
           />
           <TimelineItem
             right
-            image="/img/illustrations/reading.svg"
+            image="/img/illustrations/graduate.svg"
             text="2017 High school: I graduated as the top student of my year with a 4.0 GPA [1.0 Abitur]."
           />
         </div>
+      </div>
       </div>
     </Layout>
   );
