@@ -43,7 +43,7 @@ André Aciman
           <br />
         </a>
         <a target="_blank" className="">
-          <span class="italic">Shake hands with the devil: The Failure of Humanity in Rwanda,</span> Roméo Dallaire 
+          <span class="italic">Shake hands with the devil,</span> Roméo Dallaire 
       
           <br />
         </a>
@@ -52,15 +52,16 @@ André Aciman
       
           <br />
         </a>
-        <a target="_blank" className="">
+        
         <span class="italic">Deep Medicine,</span> Eric Topol
         <br />
         <a target="_blank" className="">
           <span class="italic">The Omnivores Dilemma,</span> Michael Pollan 
       
-          <br />
+        <br />
         </a>
       </div>
+    
     </Layout>
   );
 };
