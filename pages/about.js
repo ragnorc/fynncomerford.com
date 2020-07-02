@@ -67,6 +67,7 @@ export default () => {
           into physics and philosophy, I am passionate about filmmaking and
           always up to any sorts of outdoor activity.
         </p>
+       
         <p>
           Here, you can see a timeline as a brief overview of what I have done
           in recent years.
@@ -74,14 +75,14 @@ export default () => {
         <div className="w-full mt-20">
         <TimelineItem
           right
-          image="/img/illustrations/filming.svg"
-          text="Meanwhile, I developed a great passion for filmmaking. You can see some of my clips here." 
+          image="/img/illustrations/video.svg"
+          text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films">here.</a></p>} 
         />
         <div className="w-full mt-20">
         <TimelineItem
           left
           image="/img/illustrations/doctor.svg"
-          text="2019 For the second year of my studies, I transferred to the University of Edinburgh. You can see on LinkedIn which course options I chose."
+          text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
         />
           <TimelineItem
             right
@@ -91,7 +92,7 @@ export default () => {
           <TimelineItem
             left
             image="/img/illustrations/magiousbook.svg"
-            text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/">Find out more.</a></p>}
+            text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/work/magious">Find out more.</a></p>}
           />
           <TimelineItem
             right

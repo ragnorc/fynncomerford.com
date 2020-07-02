@@ -16,7 +16,7 @@ export default () => {
 <p>
 And if so, can we simulate our conscious reality?
 In common colloquial usage, the word ‘reality’ refers to the status of objects, time,
-space, phenomena, all that is known and all that is unknown around us. Yet
+space, phenomena, all that is known and all that is unknown around us. <br />Yet
 philosophers, physicists and sociologists of the last centuries and even millennials
 have argued that reality is not an absolute entity. Since, numerous theories have
 tried to grasp what reality signifies and implies.
@@ -142,6 +142,7 @@ Solon, O., (2016): Is our world a simulation? Available at:
 https://www.theguardian.com/technology/2016/oct/11/simulated-world-elon-musk-the-matrix, [accessed on
 the 2nd of March, 2019]
 Hut, P., Alford, M., Tegmark, M. (2006). "On Math, Matter and Mind". Foundations of Physics. 36: 765–794
+
 </p>
         </div>
       </div>
