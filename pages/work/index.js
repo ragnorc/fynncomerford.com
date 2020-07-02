@@ -20,7 +20,7 @@ export default () => {
             400: 1,
           }}
         >
-          <Link href="/work/predikon">
+          <Link href="/work/magious">
             <a>
               <div className="shadow-black rounded-lg bg-gray-100 mb-6">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
@@ -31,7 +31,7 @@ export default () => {
               </div>
             </a>
           </Link>
-          <Link href="/work/hyped">
+          <Link href="/work/venture">
             <a>
               <div className="shadow-black bg-gray-100 rounded-lg  mb-6">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
@@ -43,7 +43,7 @@ export default () => {
               </div>
             </a>
           </Link>
-          <Link href="/work/coursework">
+          <Link href="/work/publications">
             <a>
               <div className="shadow-black rounded-lg mb-6 bg-gray-100">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">

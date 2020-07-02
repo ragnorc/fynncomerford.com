@@ -110,6 +110,69 @@ André Aciman
   
           <br />
         </a>
+        <a target="_blank" className="">
+        <span class="italic"> Full Catastrophe Living, </span>
+         Jon Kabat-Zinn  
+      
+
+ 
+  
+          <br />
+        </a>
+        <a target="_blank" className="">
+        <span class="italic"> I am Malala, </span>
+         Malala Yousafzai  
+      
+
+ 
+  
+          <br />
+        </a>
+        <a target="_blank" className="">
+        <span class="italic"> The Undoing Project, </span>
+         Michael Lewis  
+      
+
+ 
+  
+          <br />
+        </a>
+        <a target="_blank" className="">
+        <span class="italic"> The Odyssey, </span>
+         Homer  
+      
+
+ 
+  
+          <br />
+        </a>
+        <a target="_blank" className="">
+        <span class="italic"> The Cider House Rules, </span>
+         John Irving  
+      
+
+ 
+  
+          <br />
+        </a>
+        <a target="_blank" className="">
+        <span class="italic"> The Brain that Changes Itself, </span>
+         Norman Doidge  
+      
+
+ 
+  
+          <br />
+        </a>
+        <a target="_blank" className="">
+        <span class="italic"> The Power of Habit, </span>
+         Charles Duhigg  
+      
+
+ 
+  
+          <br />
+        </a>
       </div>
     
     </Layout>
