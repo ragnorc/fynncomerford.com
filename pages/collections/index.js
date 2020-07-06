@@ -40,12 +40,12 @@ export default () => {
             <ListItem
               icon={<Video></Video>}
               title="Movies and Series"
-              href="/collections/movieSeries"
+              href="/collections/movies"
             ></ListItem>
             <ListItem
               icon={<Zap></Zap>}
-              title="Tools and Services"
-              href="/collections/toolServices"
+              title="Other stuff"
+              href="/collections/otherstuff"
             ></ListItem>
             <ListItem
               icon={<User></User>}
