@@ -43,15 +43,16 @@ export default () => {
               href="/collections/movies"
             ></ListItem>
             <ListItem
-              icon={<Zap></Zap>}
-              title="Other stuff"
-              href="/collections/otherstuff"
-            ></ListItem>
-            <ListItem
               icon={<User></User>}
               title="People"
               href="/collections/peoples"
             ></ListItem>
+            <ListItem
+              icon={<Zap></Zap>}
+              title="Other stuff"
+              href="/collections/otherstuff"
+            ></ListItem>
+            
           </Masonry>
         </div>
       </div>

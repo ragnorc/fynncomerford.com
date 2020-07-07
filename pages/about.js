@@ -76,7 +76,7 @@ export default () => {
         <TimelineItem
           right
           image="/img/illustrations/video.svg"
-          text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films" className="underline">here.</a></p>} 
+          text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films" className="underline"s>here.</a></p>} 
         />
        
         <TimelineItem
