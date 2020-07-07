@@ -50,7 +50,7 @@ export default () => {
             <ListItem
               icon={<User></User>}
               title="People"
-              href="/collections/people"
+              href="/collections/peoples"
             ></ListItem>
           </Masonry>
         </div>

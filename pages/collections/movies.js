@@ -93,6 +93,13 @@ Luca Guadagnino
           <br />
         </a>
         </li>
+        <li>
+        <a target="_blank" className="">
+          <span class="italic">The Standford Prison Experiment,</span> Kyle Patrick Alvarez 
+      
+          <br />
+        </a>
+        </li>
     
         </ul>
         
@@ -101,8 +108,29 @@ Luca Guadagnino
         </h2>
         <ul>
         <li>
-        <a target="_blank" className="">
-          <span class="italic">The Standford Prison Experiment,</span> Kyle Patrick Alvarez 
+        <a href="https://www.youtube.com/watch?v=XuyADFBAe2Q&list=WL&index=25&t=0s" className="">
+          <span class="italic">A Thing About Life,</span> YouTube 
+      
+          <br />
+        </a>
+        </li>
+        <li>
+        <a href="https://www.youtube.com/watch?v=12o3Zgupu_8&list=WL&index=122&t=302s" className="">
+          <span class="italic">Hey Tim,</span> YouTube 
+      
+          <br />
+        </a>
+        </li>
+        <li>
+        <a href="https://www.youtube.com/watch?v=foT9rsHmS24&list=WL&index=125&t=0s" className="">
+          <span class="italic">The Worlds Worst Translator,</span> YouTube 
+      
+          <br />
+        </a>
+        </li>
+        <li>
+        <a href="https://www.youtube.com/watch?v=3raVUTPAd-w&list=WL&index=140&t=154s" className="">
+          <span class="italic">Morning Ocean Wave Sound at Baker Beach,</span> YouTube 
       
           <br />
         </a>

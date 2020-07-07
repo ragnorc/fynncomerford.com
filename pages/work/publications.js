@@ -16,6 +16,7 @@ export default () => {
        
         
       </div>
+    
       <h1> Publications </h1>
       <br />
       <br />
@@ -23,6 +24,7 @@ export default () => {
       <h4>Here is an overview of some articles or research papers I have published.</h4>
       <br /> 
       <br />
+      
       <h2>Research</h2>
       <br />
     
@@ -41,7 +43,16 @@ export default () => {
                   <h6 className="text-lg">Comerford, F., Comerford, R., Hussain Z., Ng, N., Hussain, A., Khan, A., Lees, C. A <span className="italic"> An NLP based citation analysis tool to evaluate medical research articles - an case study using using the Covid-19 open research database</span></h6>
                 </div>
               </div>
+              <h2>Essays</h2>
+               <div className="flex w-full justify-center items-center h-48 xxl:h-64">
+                  <img className="w-1/6 h-auto " src="/img/illustrations/medicalresearch.svg" />
+                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
+                  <h6 className="text-lg">Comerford, Fynn: <span className="italic"> Reality: A controlled hallucination?</span></h6>
+                </div>
+                </div>
+                
               
+              </div>
     </Layout>
   );
 };

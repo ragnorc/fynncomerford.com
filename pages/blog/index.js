@@ -11,12 +11,13 @@ const ListItem = ({ href, title, icon, image }) => {
               backgroundSize: "cover",
             }}>
         <div className="h-32 bg-white absolute bottom-0 mb-4 rounded-xl w-11/12 pt-5 flex flex-col items-center" >
-        <p className="text-xl">Reality: A controlled hallucination?</p>
+        <p className="text-xl"></p>
         <p className=" absolute text-gray-500 text-xs bottom-0 right-0 mb-3 mr-4">3 DAYS AGO</p>
         <p className=" absolute text-gray-500 text-xs bottom-0 left-0 mb-3 ml-4">2 MIN READ</p>
         </div>
       </a>
     </Link>
+    
   );
 };
 
@@ -41,6 +42,8 @@ export default () => {
             <ListItem
               image="/img/blog/sky.jpeg"
               href=""
+              
+             
             ></ListItem>
             <ListItem
               image="/img/blog/ocean.jpeg"

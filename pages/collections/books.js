@@ -10,6 +10,7 @@ export default ({ items, heading }) => {
           <span className="text-primary">b</span>
           ooks
         </h1>
+       
 
         <a target="_blank" className="">
         
@@ -173,7 +174,14 @@ André Aciman
   
           <br />
         </a>
+        <br />
+        <br />
+        <br />
+        <br />
+         <p>If you want to see my complete bookshelf, checkout my GoodReads<a href="https://www.goodreads.com/user/show/68328870-fynn" className="underline"> here</a></p>
+        <br/>
       </div>
+    
     
     </Layout>
   );
