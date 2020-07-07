@@ -76,9 +76,9 @@ export default () => {
         <TimelineItem
           right
           image="/img/illustrations/video.svg"
-          text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films">here.</a></p>} 
+          text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films" className="underline">here.</a></p>} 
         />
-        <div className="w-full mt-20">
+       
         <TimelineItem
           left
           image="/img/illustrations/doctor.svg"
@@ -92,14 +92,14 @@ export default () => {
           <TimelineItem
             left
             image="/img/illustrations/magiousbook.svg"
-            text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/work/magious">Find out more.</a></p>}
+            text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/work/magious" className="underline">Find out more.</a></p>}
           />
           <TimelineItem
             right
             image="/img/illustrations/graduate.svg"
             text="2017 High school: I graduated as the top student of my year with a 4.0 GPA [1.0 Abitur]."
           />
-        </div>
+        
       </div>
       </div>
     </Layout>
