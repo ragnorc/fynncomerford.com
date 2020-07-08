@@ -56,19 +56,7 @@ export default () => {
               </div>
             </a>
           </Link>
-             <Link href="/work/coursework">
-            <a>
-              <div className="shadow-black rounded-lg mb-6 bg-gray-100">
-                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/6 h-auto" src="img/illustrations/venture.svg" />
-
-                  <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">H2 Ventures
-              </h2>
-                </div>
-              </div>
-            </a>
-          </Link>   <Link href="/work/films">
+               <Link href="/work/films">
             <a>
               <div className="shadow-black rounded-lg mb-6 bg-gray-100">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
