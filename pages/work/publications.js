@@ -44,15 +44,7 @@ export default () => {
                 </div>
               </div>
               <br />
-              <h2>Essays</h2>
-              <br />
-              <div className="shadow-black rounded-lg bg-gray-100 mb-6">
-                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/6 h-auto " src="/img/illustrations/docs.svg" />
-                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
-                  <h6 className="text-lg"><span className="italic"> Reality: A Controlled Hallucination?</span></h6>
-                </div>
-              </div>
+              
        </Layout>         
               
               
