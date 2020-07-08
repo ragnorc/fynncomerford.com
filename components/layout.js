@@ -16,6 +16,7 @@ import {
   faPinterest,
   faLinkedin,
   faLinkedinIn,
+  faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 library.add(
   faGithub,
@@ -23,7 +24,8 @@ library.add(
   faInstagram,
   faPinterest,
   faLinkedin,
-  faLinkedinIn
+  faLinkedinIn,
+  faYoutube
 );
 
 
@@ -110,10 +112,10 @@ function Layout({ title = "Fynn Comerford", children }) {
                   icon={["fab", "linkedin-in"]}
                 />
               </a>
-                <a href="https://www.instagram.com/fynncomerford/" target="_blank">
+                <a href="https://www.youtube.com/user/Odyseus98" target="_blank">
                 <FontAwesomeIcon
                   className="text-2xl md:text-2.5xl mx-6"
-                  icon={["fab", "youtube-play"]}
+                  icon={["fab", "youtube"]}
                 />
               </a>
               <a href="https://www.instagram.com/fynncomerford/" target="_blank">
