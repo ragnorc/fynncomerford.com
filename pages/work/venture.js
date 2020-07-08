@@ -16,90 +16,46 @@ export default () => {
 
   return (
     <Layout>
-      <div className="bg-white flex flex-col px-18 lg:px-24 w-full leading-relaxed">
+      <div className=" flex flex-col px-18 lg:px-24 w-full leading-relaxed">
         <div className="flex mb-20">
-          <Image
+          <img
             style={{ boxShadow: "0px 0px 45px 10px rgba(45, 56, 104, 0.5" }}
-            path="hyped/thumbnail.jpeg"
+            src="/img/illustrations/edventure.png"
             className="rounded-lg w-1/4 mr-20 mb-4 hidden md:block xl:block xxl:block"
-          ></Image>
+          ></img>
 
           <div>
-            <h1 className="text-5xl font-bold mb-8">Hyped</h1>
+            <h1 className="text-5xl font-bold mb-8">EdVenture Capital</h1>
             <p>
-              <strong>Period:</strong> 2017 - 2018
+              <strong>Status:</strong> planning
+            </p>
+            
+            <p>
+              <strong>Collaborators:</strong> 
+          
             </p>
             <p>
-              <strong>Collaborators:</strong> Hyped - Edinburgh Hyperloop Team
-            </p>
-            <p>
-              <strong>Location:</strong> Los Angeles, CA & Edinburgh, UK
+              <strong>Location:</strong> Edinburgh, UK
             </p>
             <p>
               <strong>Website:</strong>{" "}
-              <a
-                target="_blank"
-                className="underline"
-                href="https://hyp-ed.com"
-              >
-                hyp-ed.com
-              </a>
+           
             </p>
-
-            <div className="flex mt-10 items-center">
-              <Image className="w-1/12 h-auto mr-5" path="logos/hyped.png" />
-              <Image className="w-2/5 h-auto" path="logos/spacex.svg" />
-            </div>
+         
           </div>
         </div>
         <p>
-          Hyperloop is Elon Musk’s concept for the future of mass
-          transportation. It offers a new means of transporting people and goods
-          quickly, safely, efficiently, and with minimised environmental impact.
+          EdVenture Capital is a Edinburgh-based venture capital society  focused on early stage startups founded by students from British universities. 
         </p>
         <p>
-          The Hyperloop uses electric propulsion to accelerate a passenger or
-          cargo pod through a low-pressure tube. The autonomous pod employs
-          magnetic levitation to eliminate friction. The Hyperloop would allow
-          travel times considerably shorter than current rail or air travel
-          times. Carbon emissions, noise, delays, journey time, weather concerns
-          and pilot error are ultimately eliminated.
-        </p>
-        <p>
-          In 2017, I joined HYPED, a team of over 100+ students across academic
-          disciplines at the University of Edinburgh dedicated to accelerating
-          the development of Hyperloop. HYPED is advancing both technical and
-          commercial development of Hyperloop, having seen success in two
-          international competitions.
-        </p>
-        <p>
-          For the SpaceX Competition 2018, we spent a year designing and
-          engineering our very own Hyperloop Pod. Our pod made use of passive
-          magnetic levitation, Halbach wheel propulsion and highly sophisticated
-          software for navigation and control systems.
-          <br />
-          After months of hard work, we got selected for the finals of the
-          SpaceX Competition in Hawthorne, California.
-          <br />
-          The final week was an extremely challenging but exciting experience.
-          Engineers from SpaceX walked us through a variety of hard technical
-          tests and challenges that were able to manage very successfully. Due
-          to a malfunction of our CAN-BUS tranceiver at the very end, we were
-          not able to make it to the last run but we were very happy to have
-          reached the 6th place among hundreds of universities.
+          Besides early stage funding,
+          we offer network, mentoring and operational guidance to early stage student founders in our accelerator EdVenture Studios.  
         </p>
 
-        <Masonry
-          className="mt-20"
-          columnWidth={300}
-          columnGutter={20}
-          items={photos.map((url) => {
-            return { url };
-          })}
-          render={({ index, data, width }) => (
-            <Image path={data.url} className="rounded-lg"></Image>
-          )}
-        ></Masonry>
+       
+
+       
+        
       </div>
     </Layout>
   );

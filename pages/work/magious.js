@@ -60,7 +60,7 @@ export default () => {
             <img 
             className="mt-5 mb-5 w-1/2"
             src="/img/illustrations/magiousmagazines.jpg" />
-            <p className="mt-2 mb-10">Figure 2: Scatter plot of PCA</p>
+            
           </div>
           <div className="flex flex-col items-center justify-center">
             <img 
@@ -70,7 +70,7 @@ export default () => {
           </div>
         </div>
         <p>
-          We maintained a tight collaboration which helped us finance our studies undtil moving to Edinburgh to study.
+          We maintained a tight collaboration which helped us finance our studies until moving to Edinburgh to study.
         </p>
         <div className="flex flex-col items-center w-100 my-10">
           <img className="mt-5 mb-2 w-2/5" src="/img/illustrations/magiouspresent.png" />

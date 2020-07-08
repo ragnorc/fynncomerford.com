@@ -20,8 +20,8 @@ export default () => {
       <h1> Publications </h1>
       <br />
       <br />
-      <br />
-      <h4>Here is an overview of some articles or research papers I have published.</h4>
+      
+      <h4>Here is an overview of some research papers,articles and essays I have published.</h4>
       <br /> 
       <br />
       
@@ -40,7 +40,7 @@ export default () => {
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <img className="w-1/6 h-auto " src="/img/illustrations/docs.svg" />
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
-                  <h6 className="text-lg">Comerford, F., Comerford, R., Hussain Z., Ng, N., Hussain, A., Khan, A., Lees, C. A <span className="italic"> An NLP based citation analysis tool to evaluate medical research articles - an case study using using the Covid-19 open research database</span></h6>
+                  <h6 className="text-lg">Comerford, F., Comerford, R., Varone, G.,Hussain Z., Sheikh, A., Hussain, A., <span className="italic"> An NLP based citation analysis tool to evaluate medical research articles - an case study using using the Covid-19 open research database</span></h6>
                 </div>
               </div>
               <br />
@@ -50,7 +50,7 @@ export default () => {
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <img className="w-1/6 h-auto " src="/img/illustrations/docs.svg" />
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
-                  <h6 className="text-lg">Comerford, Fynn <span className="italic"> Reality: A Controlled Hallucination?</span></h6>
+                  <h6 className="text-lg"><span className="italic"> Reality: A Controlled Hallucination?</span></h6>
                 </div>
               </div>
        </Layout>         
