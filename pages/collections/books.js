@@ -10,21 +10,22 @@ export default ({ items, heading }) => {
           <span className="text-primary">b</span>
           ooks
         </h1>
-       
-
+       <ul>
+       <li>
         <a target="_blank" className="">
         
           <span class="italic"> Call me by your name, </span>
 André Aciman
           <br />
         </a>
-        
+        <li>
         <a target="_blank" className="">
          <span class="italic"> A crack in creation, </span>
            Jennifer A. Doudna 
       
           <br />
         </a>
+        <li>
         <a target="_blank" className="">
         <span class="italic"> The man who mistook his wife for a hat, </span>
          Oliver Sacks
@@ -33,21 +34,25 @@ André Aciman
   
           <br />
         </a>
+        <li>
         <a target="_blank" className="">
          <span class="italic"> We should all be feminists,</span> Chimamanda Ngozi Adichie
       
           <br />
         </a>
+        <li>
         <a target="_blank" className="">
           <span class="italic">Homo Deus and Homo Sapiens,</span> Yuval Noah Harari 
       
           <br />
         </a>
+        <li>
         <a target="_blank" className="">
           <span class="italic">Shake hands with the devil,</span> Roméo Dallaire 
       
           <br />
         </a>
+        <li>
         <a target="_blank" className="">
           <span class="italic">The Gene,</span> Siddhartha Mukherje
       
@@ -56,6 +61,7 @@ André Aciman
         
         <span class="italic">Deep Medicine,</span> Eric Topol
         <br />
+        <li>
         <a target="_blank" className="">
           <span class="italic">The Omnivores Dilemma,</span> Michael Pollan 
       
@@ -180,6 +186,7 @@ André Aciman
         <br />
          <p>If you want to see my complete bookshelf, checkout my GoodReads<a href="https://www.goodreads.com/user/show/68328870-fynn" className="underline"> here</a></p>
         <br/>
+        </ul>
       </div>
     
     

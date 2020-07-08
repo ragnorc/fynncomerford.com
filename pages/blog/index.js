@@ -5,7 +5,7 @@ import { Book, Video, Zap, User } from "react-feather";
 
 const ListItem = ({ href, title, icon, image, readTime, created, category }) => {
   return (
-    <Link as={href} href="/blog/blogpost1">
+    <Link as={href} href={href}>
       <a className="h-112 shadow-black rounded-xl mb-6 flex items-center justify-center relative" style={{
               backgroundImage: `url('${image}')`,
               backgroundSize: "cover",
@@ -43,7 +43,7 @@ export default () => {
           >
             <ListItem
               image="/img/illustrations/bookswallpaper.jpg"
-              href=""
+              href="/blog/blogpost1"
               title="Reality: A Controlled Hallucination?"
               readTime="10"
               created="Jan 2020"
@@ -53,20 +53,14 @@ export default () => {
             ></ListItem>
             <ListItem
               image="/img/blog/stemcell.jpg"
-              href=""
+              href="/blog/stemcell"
               title="Stem Cells Open Developmental 'Blackbox'"
               readTime="5"
               created="June 2020"
               category="Science"
             ></ListItem>
-         <ListItem
-              image="/img/blog/suicide.jpg"
-              href=""
-              title="Seeing someone commit suicide"
-              readTime="5"
-              created="July 2020"
-              category="Travel"
-            ></ListItem>
+            
+       
           </Masonry>
         </div>
       </div>
