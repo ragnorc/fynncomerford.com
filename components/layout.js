@@ -97,30 +97,32 @@ function Layout({ title = "Fynn Comerford", children }) {
           <div className="flex flex-col items-center justify-center w-full">
             <div className="flex">
              
-              <a href="https://ragnor.co/twitter" target="_blank">
-                <FontAwesomeIcon
-                  className="text-2xl md:text-2.5xl mx-6"
-                  icon={["fab", "twitter"]}
-                />
-              </a>
-              <a href="https://ragnor.co/pinterest" target="_blank">
+              
+              <a href="https://www.pinterest.de/fynncomerford/" target="_blank">
                 <FontAwesomeIcon
                   className="text-2xl md:text-2.5xl mx-6"
                   icon={["fab", "pinterest"]}
                 />
               </a>
-              <a href="https://ragnor.co/linkedin" target="_blank">
+              <a href="https://www.linkedin.com/in/fynn-comerford-7348bab9/" target="_blank">
                 <FontAwesomeIcon
                   className="text-2xl md:text-2.5xl mx-6"
                   icon={["fab", "linkedin-in"]}
                 />
               </a>
-              <a href="https://ragnor.co/instagram" target="_blank">
+                <a href="https://www.instagram.com/fynncomerford/" target="_blank">
+                <FontAwesomeIcon
+                  className="text-2xl md:text-2.5xl mx-6"
+                  icon={["fab", "youtube-play"]}
+                />
+              </a>
+              <a href="https://www.instagram.com/fynncomerford/" target="_blank">
                 <FontAwesomeIcon
                   className="text-2xl md:text-2.5xl mx-6"
                   icon={["fab", "instagram"]}
                 />
               </a>
+              
             </div>
             <p className="mt-12 text-gray-700">
               Fynn Comerford © 2020 All rights reserved.

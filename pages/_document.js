@@ -16,7 +16,7 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="shortcut icon"
-            href="https://ik.imagekit.io/ragnor/logos/rc.png"
+            href="/img/illustrations/signature.png"
           />
          
         </Head>
