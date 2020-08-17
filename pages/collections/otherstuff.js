@@ -45,7 +45,7 @@ export default () => {
                   <img className="w-1/5 h-auto" src="/img/illustrations/finance.svg"/>
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">EdVenture Capital</h2>
+                  <h2 className="text-lg">Poems: Desiderata, Do Not Stand By My Grave and Weep, Do Not Go Gentle</h2>
                 </div>
               </div>
             </a>
@@ -57,7 +57,7 @@ export default () => {
                   <img className="w-1/6 h-auto" src="img/illustrations/publication.svg" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Publications
+                  <h2 className="text-lg">Artists: V. Ziminski
               </h2>
                 </div>
               </div>

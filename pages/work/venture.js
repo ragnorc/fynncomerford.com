@@ -27,31 +27,35 @@ export default () => {
           <div>
             <h1 className="text-5xl font-bold mb-8">EdVenture Capital</h1>
             <p>
-              <strong>Status:</strong> planning
+              <strong>Status:</strong> In Planning
             </p>
             
             <p>
-              <strong>Collaborators:</strong> 
+              <strong>Collaborators:</strong> Zara Zaman, Ragnor Comerford 
           
             </p>
             <p>
               <strong>Location:</strong> Edinburgh, UK
             </p>
             <p>
-              <strong>Website:</strong>{" "}
+              <strong>Website:</strong>{"www.edventure.vc"}
            
             </p>
          
           </div>
         </div>
         <p>
-          EdVenture Capital is a Edinburgh-based venture capital society  focused on early stage startups founded by students from British universities. 
+          EdVenture is a student-run venture fund building and funding startups through a semester-long accelerator programme.
         </p>
         <p>
-          Besides early stage funding,
-          we offer network, mentoring and operational guidance to early stage student founders in our accelerator EdVenture Studios.  
+          The programme is organised into three phases; selection, competition and funding.
         </p>
-
+        <br />
+        <p> <strong> 1. Selection:</strong> We recruit the best and the brightest from the University of Edinburgh and allocate students between teams of either internal or external ideas. This means we can include exceptional talent with a passion for building a startup, whether they come to us with their own idea or not. The teams are carefully handpicked by EdVenture to ensure a range of complementary skills and abilities in heterogeneous groups. </p>
+        <br />
+        <p> <strong> 2. Competition:</strong> This is where it gets even more exciting! The competition phase. In this phase, the teams work for 10 weeks on the execution of their respective projects and present their progress every week to both the EdVenture team and rest of the cohort. Along the way, as they build their startups, our 10-week competition is jam-packed with exciting workshops, personalised mentoring sessions and inspirational guest speakers on a range of pertinent topics for budding startups </p>
+        <br />
+        <p> <strong> 3. Funding:</strong> In the third phase, which represents the end of the programme, the most promising groups from the competition are selected and offered a unique investment opportunity! </p>
        
 
        
@@ -60,3 +64,4 @@ export default () => {
     </Layout>
   );
 };
+
