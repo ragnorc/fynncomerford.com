@@ -31,9 +31,8 @@ export default () => {
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
-                  <h3 className="text-lg">Online courses:
-                  <br /><li><ul> The Science of Wellbeing, Yale </li></ul></h3>
-                  
+                  <h3 className="text-lg">Online courses:</h3>
+                  <br /><ol><li> The Science of Wellbeing, Yale </li></ol>                  
                   
                 </div>
               </div>
