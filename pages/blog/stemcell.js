@@ -58,7 +58,7 @@ Finally, it is important to note the potential problems that may arise from this
 <p>
 Nevertheless, this breakthrough represents a promising advance and it will be interesting to see how newly acquired knowledge can be applied to alleviate suffering in the context of regenerative medicine, and push epistemological boundaries.</p> <br />
 
-<p class="strong">Thoughts</p>
+<p class="bold">Thoughts</p>
 <br />
 <p>While I, as a student of science, am fascinated by the vigor and enthusiasm of scientists to discover and explore, I am equally aware of the importance of debating the ethical implications of scientific advances and would certainly hope that scientists do not try to outpace ethical legislation in this regard. 
 

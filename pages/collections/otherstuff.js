@@ -29,7 +29,7 @@ export default () => {
             <a>
               <div className="shadow-black rounded-lg bg-gray-100 mb-6">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/5 h-auto " src="/img/illustrations/magiouswork.svg" />
+                  
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
                   <h3 className="text-lg">Online course: The Science of Wellbeing Yale</h3>
                   
