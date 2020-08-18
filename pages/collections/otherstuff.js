@@ -32,7 +32,12 @@ export default () => {
                   
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
                   <h3 className="text-lg">Online courses:</h3>
-                  <br /><ol><li> The Science of Wellbeing, Yale </li></ol>                  
+                  <br />
+                  
+                  <ol>
+                  <li> The Science of Wellbeing, Yale</li>
+                  <li> something else </li>
+                  </ol>                  
                   
                 </div>
               </div>
