@@ -10,7 +10,7 @@ export default () => {
         <h1 className="text-5xl font-bold mb-12">
           <span className="text-primary">o</span>ther stuff
         </h1>
-        <p> Here are some other, more general, things that I am a big fan of. </p>
+        <p> Here are some other, more general things that I am a big fan of. </p>
         <br />
         <br />
         <br />
@@ -34,65 +34,48 @@ export default () => {
                   <h3 className="text-lg">Online courses:</h3>
                   <br />
                   
-                  <ol>
+                  <ul>
                   <li> The Science of Wellbeing, Yale</li>
-                  <li> something else </li>
-                  </ol>                  
+                  </ul>                  
                   
                 </div>
               </div>
             </a>
           
-          <Link href="/work/venture">
+          
             <a>
               <div className="shadow-black bg-gray-100 rounded-lg  mb-6">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/5 h-auto" src="/img/illustrations/finance.svg"/>
+                  
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Poems: Desiderata, Do Not Stand By My Grave and Weep, Do Not Go Gentle</h2>
+                  <h3 className="text-lg">Poems:</h3>
+                  <br />
+                  <ul>
+                  <li> Desiderata </li> 
+                  <li> Do Not Stand At My Grave and Weep</li>
+                  <li>  Do Not Go Gentle </li>
                 </div>
               </div>
             </a>
-          </Link>
-          <Link href="/work/publications">
+         
+          
             <a>
               <div className="shadow-black rounded-lg mb-6 bg-gray-100">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/6 h-auto" src="img/illustrations/publication.svg" />
+                  
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Artists: V. Ziminski
-              </h2>
+                  <h3 className="text-lg">Artists:</h3>
+                  <br />
+                  <ul>
+                  <li> V. Ziminski </li>
+              
                 </div>
               </div>
             </a>
-          </Link>
-             <Link href="/work/coursework">
-            <a>
-              <div className="shadow-black rounded-lg mb-6 bg-gray-100">
-                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/6 h-auto" src="img/illustrations/venture.svg" />
-
-                  <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">H2 Ventures
-              </h2>
-                </div>
-              </div>
-            </a>
-          </Link>   <Link href="/work/films">
-            <a>
-              <div className="shadow-black rounded-lg mb-6 bg-gray-100">
-                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/6 h-auto" src="img/illustrations/video.svg" />
-
-                  <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Comerford Filmmaking
-              </h2>
-                </div>
-              </div>
-            </a>
-          </Link>
+          
+              
             
         </Masonry>
       </div>
