@@ -38,7 +38,7 @@ export default () => {
               <strong>Location:</strong> Edinburgh, UK
             </p>
             <p>
-              <strong>Website: </strong> <a href="www.edventure.vc"> {"www.edventure.vc"}</a>
+              <strong>Website: </strong> <a href="https://edventure.vc/"> {"www.edventure.vc"} </a>
            
             </p>
          
