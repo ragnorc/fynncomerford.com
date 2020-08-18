@@ -16,7 +16,7 @@ export default () => {
 <p>
 And if so, can we simulate our conscious reality?
 In common colloquial usage, the word ‘reality’ refers to the status of objects, time,
-space, phenomena, all that is known and all that is unknown around us.Yet
+space, phenomena, all that is known and all that is unknown around us. Yet
 philosophers, physicists and sociologists of the last centuries and even millennials
 have argued that reality is not an absolute entity. Since, numerous theories have
 tried to grasp what reality signifies and implies.</p> <br /><p>
