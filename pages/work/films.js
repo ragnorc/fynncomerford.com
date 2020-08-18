@@ -24,6 +24,11 @@ const Video = ({ url }) => {
             <h1 className="text-5xl font-bold mb-12">
               <span className="text-primary">c</span>omerford films
             </h1>
+            <p>
+            Filmmaking is something I can't stop thinking about, something that is always on my mind, when I see beautiful landscapes, when I sit in the bus driving past thousands of individual stories crossing over on the sidewalk or when my mind constructs ideas for my next short-films. Whether it is making short travel videos or more abstract concepts, I love learning about this fantastic artistic medium, about lighting, composition and storytelling. It is my dramatic, artistic self that keeps my scientific, rational side in balance. Although I largely do it for its own sake and my personal enjoyment, here are some of the last clips I have been working on. 
+            </p>
+            <br /> 
+            <br /> 
             <Masonry
               className="w-auto flex space-x-10"
               breakpointCols={{
@@ -32,6 +37,9 @@ const Video = ({ url }) => {
                 500: 1,
               }}
             >
+            <Video
+                url="https://www.youtube.com/watch?v=YDIzb3pkfeI"
+              ></Video>
             <Video
                 url="https://www.youtube.com/watch?v=DHza57aBlfc"
               ></Video>
