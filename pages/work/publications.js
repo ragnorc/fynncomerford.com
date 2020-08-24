@@ -21,7 +21,7 @@ export default () => {
       <br />
       <br />
       
-      <h4>Here is an overview of some research papers,articles and essays I have published.</h4>
+      <h4>Here is an overview of some research papers,   articles and essays I have published.</h4>
       <br /> 
       <br />
       
