@@ -53,7 +53,7 @@ export default () => {
                   <br />
                   <ul>
                   <li> Desiderata </li> 
-                  <li> Do Not Stand At My Grave and Weep</li>
+                  <li> Do Not Stand At My Grave                and Weep</li>
                   <li> Do Not Go Gentle </li>
                   </ul>
                 </div>
@@ -70,7 +70,8 @@ export default () => {
                   <h3 className="text-lg">Interesting Artists:</h3>
                   <br />
                   <ul>
-                  <li> V. Ziminski </li>
+                  <li>
+Véronique Ziminski </li>
                   </ul>
               
                 </div>
