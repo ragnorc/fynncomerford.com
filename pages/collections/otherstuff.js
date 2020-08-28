@@ -48,7 +48,7 @@ export default () => {
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   
 
-                  <div className="border-l-2 h-10 border-black mx-5"></div>
+                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
                   <h3 className="text-lg">Poems:</h3>
                   <br />
                   <ul>
