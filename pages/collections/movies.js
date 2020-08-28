@@ -51,6 +51,13 @@ Luca Guadagnino
         </li>
         <li>
         <a target="_blank" className="">
+          <span class="italic">1917,</span> Sam Mendes 
+      
+          <br />
+        </a>
+        </li>
+        <li>
+        <a target="_blank" className="">
           <span class="italic">The Theory of Everything,</span> James Marsh 
       
           <br />

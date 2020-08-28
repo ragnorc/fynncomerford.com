@@ -2,7 +2,7 @@ import Layout from "components/layout";
 import { useMediaQuery } from "react-responsive";
 
 const TimelineItem = ({ right, left, image, text }) => {
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isMobile = useMediaQuery({ maxWidth: 800 });
 
   return (
     <div className="flex w-full flex-no-wrap flex-row items-center">
@@ -74,21 +74,38 @@ export default () => {
         </p>
         <div className="w-full mt-20">
         <TimelineItem
+          left
+          image="/img/illustrations/2020.svg"
+          text={<p>I am now going into 3rd year with exciting projects laying ahead!</p>} 
+        />
+        <TimelineItem
           right
+          image="/img/illustrations/empty.svg"
+          text={<p>During the challenging pandemic, I interned in a VC firm, collaborated on two research papers and started setting up a student focussed accelerator. Check out my recent projects <a href="/work" className="underline">here. </a></p>} 
+        />
+
+
+        <TimelineItem
+          left
           image="/img/illustrations/video.svg"
           text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films" className="underline"s>here.</a></p>} 
         />
        
         <TimelineItem
-          left
+          right
           image="/img/illustrations/doctor.svg"
           text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
         />
           <TimelineItem
-            right
+            left
             image="/img/illustrations/exam.svg"
             text="In 2018, I started my first year of Neuroscience at the University of Edinburgh. I finished the year top of my class with an average of 90,3%."
           />
+           <TimelineItem
+          right
+          image="/img/illustrations/plane.svg"
+          text={<p>After wrapping up Magious, I travelled through Europe, Asia and South America. I wrote about some of my experiences in my <a href="/work/blog" className="underline"s>blog.</a></p>} 
+        />
           <TimelineItem
             left
             image="/img/illustrations/magiousbook.svg"

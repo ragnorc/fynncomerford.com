@@ -75,7 +75,7 @@ function Layout({ title = "Fynn Comerford", children }) {
                   <a className={`ml-5 hover:text-primary`}>about</a>
                 </ActiveLink>
                 <ActiveLink activeClassName="text-primary" href="/work">
-                  <a className={`ml-5 hover:text-primary`}>work</a>
+                  <a className={`ml-5 hover:text-primary`}>projects</a>
                 </ActiveLink>
                 <ActiveLink activeClassName="text-primary" href="/collections">
                   <a className={`ml-5 hover:text-primary`}>collections</a>
@@ -83,7 +83,7 @@ function Layout({ title = "Fynn Comerford", children }) {
                 <a
                   target="_blank"
                   className={`ml-5 hover:text-primary`}
-                  href="https://drive.google.com/file/d/10QeLSrMjPpylTYTI2SVamUvLMkPVmo42/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1DaRUpF6yPzLQI1IlRugVA2d7yOpTmRbQ/view?usp=sharing"
                 >
                   resume
                 </a>

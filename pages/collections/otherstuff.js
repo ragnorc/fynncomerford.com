@@ -54,7 +54,8 @@ export default () => {
                   <ul>
                   <li> Desiderata </li> 
                   <li> Do Not Stand At My Grave and Weep</li>
-                  <li>  Do Not Go Gentle </li>
+                  <li> Do Not Go Gentle </li>
+                  </ul>
                 </div>
               </div>
             </a>
@@ -70,6 +71,7 @@ export default () => {
                   <br />
                   <ul>
                   <li> V. Ziminski </li>
+                  </ul>
               
                 </div>
               </div>
