@@ -81,7 +81,7 @@ André Aciman
         </a>
         <a target="_blank" className="">
         <span class="italic"> The Art of Happiness, </span>
-         Dalai Lama XIV and Samuel H. Sternberg 
+         Dalai Lama XIV & Samuel Sternberg 
 
  
   

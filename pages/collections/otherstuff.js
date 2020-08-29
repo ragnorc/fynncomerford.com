@@ -51,11 +51,13 @@ export default () => {
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
                   <h3 className="text-lg">Beautiful Poems:</h3>
                   <br />
-                  <ul>
-                  <li> Desiderata </li> 
-                  <li> Do Not Stand At My Grave                and Weep</li>
-                  <li> Do Not Go Gentle </li>
-                  </ul>
+                  
+                   Desiderata 
+                    <br />
+                   Do Not Stand At My Grave                and Weep
+                    <br />
+                   Do Not Go Gentle 
+                  
                 </div>
               </div>
             </a>
