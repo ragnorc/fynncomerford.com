@@ -33,10 +33,9 @@ export default () => {
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
                   <h3 className="text-lg">Online courses:</h3>
                   <br />
-                  
-                  <ul>
-                  <li> The Science of Wellbeing, Yale</li>
-                  </ul>                  
+              
+                   The Science of Wellbeing, Yale
+                                    
                   
                 </div>
               </div>
@@ -49,12 +48,12 @@ export default () => {
                   
 
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
-                  <h3 className="text-lg">Beautiful Poems:</h3>
+                  <h3 className="text-lg"> Poems:</h3>
                   <br />
                   
                    Desiderata 
                     <br />
-                   Do Not Stand At My Grave                and Weep
+                   Do Not Stand At My Grave               
                     <br />
                    Do Not Go Gentle 
                   
@@ -69,12 +68,10 @@ export default () => {
                   
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h3 className="text-lg">Interesting Artists:</h3>
+                  <h3 className="text-lg"> Artists:</h3>
                   <br />
-                  <ul>
-                  <li>
-Véronique Ziminski </li>
-                  </ul>
+                  
+Véronique Ziminski 
               
                 </div>
               </div>
