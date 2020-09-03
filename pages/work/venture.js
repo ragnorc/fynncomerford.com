@@ -25,7 +25,7 @@ export default () => {
           ></img>
 
           <div>
-            <h1 className="text-5xl font-bold mb-8">EdVenture Capital</h1>
+            <h1 className="text-5xl font-bold mb-8">EdVenture </h1>
             <p>
               <strong>Status:</strong> Starting this September 
             </p>
@@ -45,7 +45,7 @@ export default () => {
           </div>
         </div>
         <p>
-          EdVenture is a student-run venture fund building and funding startups through a semester-long accelerator programme.
+          I co-founded Edventure,  a student-run accelerator building and funding startups through a semester-long programme.
         </p>
         <p>
           The programme is organised into three phases; selection, competition and funding.
