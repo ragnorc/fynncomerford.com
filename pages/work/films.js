@@ -63,6 +63,7 @@ const Video = ({ url }) => {
             </Masonry>
           </div>
         </div>
+        I just recently founded my videography company. You can check it out here. 
       </Layout>
     );
   };

@@ -8,7 +8,7 @@ export default () => {
     <Layout>
       <div className="pl-18 lg:pl-32 w-full leading-relaxed">
         <h1 className="text-5xl font-bold mb-12">
-          <span className="text-primary">w</span>ork
+          <span className="text-primary">p</span>rojects
         </h1>
         <Masonry
           className="w-auto flex"
@@ -20,17 +20,7 @@ export default () => {
             400: 1,
           }}
         >
-          <Link href="/work/magious">
-            <a>
-              <div className="shadow-black rounded-lg bg-gray-100 mb-6">
-                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/5 h-auto " src="/img/illustrations/magiouswork.svg" />
-                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
-                  <h2 className="text-lg">Magious</h2>
-                </div>
-              </div>
-            </a>
-          </Link>
+          
           <Link href="/work/venture">
             <a>
               <div className="shadow-black bg-gray-100 rounded-lg  mb-6">
@@ -39,6 +29,17 @@ export default () => {
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
                   <h2 className="text-lg">EdVenture Capital</h2>
+                </div>
+              </div>
+            </a>
+          </Link>
+          <Link href="/work/magious">
+            <a>
+              <div className="shadow-black rounded-lg bg-gray-100 mb-6">
+                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
+                  <img className="w-1/5 h-auto " src="/img/illustrations/magiouswork.svg" />
+                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
+                  <h2 className="text-lg">Magious</h2>
                 </div>
               </div>
             </a>
