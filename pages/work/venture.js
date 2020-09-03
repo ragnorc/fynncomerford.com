@@ -20,14 +20,14 @@ export default () => {
         <div className="flex mb-20">
           <img
             style={{ boxShadow: "0px 0px 45px 10px rgba(45, 56, 104, 0.5" }}
-            src="/img/illustrations/edventure.png"
+            src="/img/illustrations/edventurenew.jpeg"
             className="rounded-lg w-1/4 mr-20 mb-4 hidden md:block xl:block xxl:block"
           ></img>
 
           <div>
             <h1 className="text-5xl font-bold mb-8">EdVenture Capital</h1>
             <p>
-              <strong>Status:</strong> In Planning
+              <strong>Status:</strong> Starting this September 
             </p>
             
             <p>
