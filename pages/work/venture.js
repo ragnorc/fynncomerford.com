@@ -59,7 +59,8 @@ export default () => {
        
 
        
-        
+        <br />
+        <p> Applications are open now!</p>
       </div>
     </Layout>
   );

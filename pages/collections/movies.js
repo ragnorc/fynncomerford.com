@@ -17,6 +17,22 @@ Luca Guadagnino
         </a>
         </li>
         <li>
+        <a target="_blank" className="">
+        
+          <span class="italic"> Shawshank Redemption, </span>
+Frank Darabont
+          <br />
+        </a>
+        </li>
+        <li>
+        <a target="_blank" className="">
+        
+          <span class="italic"> Parasite, </span>
+Bong Joon Ho
+          <br />
+        </a>
+        </li>
+        <li>
         
         <a target="_blank" className="">
          <span class="italic"> HUMAN, </span>
