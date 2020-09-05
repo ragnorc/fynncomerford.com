@@ -62,8 +62,7 @@ export default () => {
         </h1>
         <p>
           My name is Fynn Comerford and I’m currently studying Neuroscience at
-          the University of Edinburgh. Professionally, I am particularly interested in the
-          development of stem cell and gene therapies. I also love venturing out
+          the University of Edinburgh. Professionally, I am particularly interested venture capital, biotech and the development of innovative therapies. I also love venturing out
           into physics and philosophy, I am passionate about filmmaking and
           always up to any sorts of outdoor activity.
         </p>
@@ -81,7 +80,7 @@ export default () => {
         <TimelineItem
           right
           image="/img/illustrations/empty.svg"
-          text={<p>During the challenging pandemic, I interned in a VC firm, collaborated on two research papers and started setting up a student focussed accelerator. Check out my recent projects <a href="/work" className="underline">here. </a></p>} 
+          text={<p>During the challenging pandemic, I interned in a VC firm, collaborated on two research papers and founded Edinburgh's first student-run accelerator programme. Check out my recent projects <a href="/work" className="underline">here. </a></p>} 
         />
 
 

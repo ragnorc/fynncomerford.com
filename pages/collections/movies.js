@@ -35,7 +35,7 @@ Bong Joon Ho
         <li>
         
         <a target="_blank" className="">
-         <span class="italic"> HUMAN, </span>
+         <span class="italic"> Human, </span>
            Yann Arthus-Bertrand
       
           <br />

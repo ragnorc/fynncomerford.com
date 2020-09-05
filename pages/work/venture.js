@@ -60,7 +60,7 @@ export default () => {
 
        
         <br />
-        <p> Applications are open now!</p>
+        <p> <a href="https://edventure.vc/" className="underline">Applications </a> are now opens!</p>
       </div>
     </Layout>
   );
