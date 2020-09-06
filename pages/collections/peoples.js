@@ -5,7 +5,7 @@ export default ({ items, heading }) => {
   console.log(items);
   return (
     <Layout>
-      <div className="pl-18 lg:pl-32 w-2/1 leading-relaxed">
+      <div className="pl-18 lg:pl-32 w-3 leading-relaxed">
         <h1 className="text-5xl font-bold mb-5">
           <span className="text-primary">p</span>
           eople
