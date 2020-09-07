@@ -83,7 +83,7 @@ function Layout({ title = "Fynn Comerford", children }) {
                 <a
                   target="_blank"
                   className={`ml-5 hover:text-primary`}
-                  href="https://drive.google.com/file/d/1DaRUpF6yPzLQI1IlRugVA2d7yOpTmRbQ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ez8JC4zvkWM4K6V4QUZ1ICCKUwOqNYKR/view?usp=sharing"
                 >
                   resume
                 </a>

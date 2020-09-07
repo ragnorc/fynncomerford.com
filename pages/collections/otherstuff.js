@@ -43,6 +43,28 @@ export default ({ items, heading }) => {
             <li>  Do Not Go Gentle </li>
             <li> Do Not Stand By My Grave And Weep </li>
           </ul>
+          <h2>Wine</h2>
+          
+           <h2>Places</h2>
+           <ul>
+            <li>
+              Haute-Savoie, France </li>
+            <li>  Cinque Terre, Italy </li>
+            <li> Uyuni, Bolivia </li>
+            <li> Laguna Colorada, Bolivia </li>
+            <li> Si Phangnga National Park, Thailand </li>
+            <li> San Pedro de Atacama, Chile </li>
+            <li> Cachi, Argentina </li>
+            <li> Laguna Colorada, Bolivia </li>
+            <li> Ilha do Mel, Brazil </li>
+            <li> Par naturel du Verdon, France </li> 
+            <li> Lago di Como, Italy </li> 
+            <li> Edinburgh, Scotland </li>
+            <li> Isle of Skye, Scotland </li> 
+          </ul>
+
+
+          
       </div>
     
     </Layout>

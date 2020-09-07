@@ -76,7 +76,7 @@ export default () => {
         <TimelineItem
           left
           image="/img/illustrations/2020.svg"
-          text={<p>Beginning my third year of university, launched EdVenture, Edinburgh's first student-run accelerator programme. We are currently receiving applications to  <a target="https://edventure.vc/" className="underline">join the programme. </a>join the programme. </p>} 
+          text={<p>Beginning my third year of university, launched EdVenture, Edinburgh's first student-run accelerator programme. We are currently receiving applications to  <a target="https://edventure.vc/" className="underline">join the programme. </a> </p>} 
         />
         <TimelineItem
           right
