@@ -72,15 +72,16 @@ export default () => {
           in recent years.
         </p>
         <div className="w-full mt-20">
+       
         <TimelineItem
           left
           image="/img/illustrations/2020.svg"
-          text={<p>I am now going into 3rd year with exciting projects laying ahead!</p>} 
+          text={<p>Beginning my third year of university, launched EdVenture, Edinburgh's first student-run accelerator programme. We are currently receiving applications to  <a target="https://edventure.vc/" className="underline">join the programme. </a>join the programme. </p>} 
         />
         <TimelineItem
           right
           image="/img/illustrations/empty.svg"
-          text={<p>During the challenging pandemic, I interned in a VC firm, collaborated on two research papers and founded Edinburgh's first student-run accelerator programme. Check out my recent projects <a href="/work" className="underline">here. </a></p>} 
+          text={<p>During the challenging pandemic, I interned in a VC firm, collaborated on two research papers and founded an accelerator. Check out my recent projects <a href="/work" className="underline">here. </a></p>} 
         />
 
 
