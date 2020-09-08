@@ -44,8 +44,12 @@ export default ({ items, heading }) => {
             <li> Do Not Stand By My Grave And Weep </li>
           </ul>
           <h2>Wine</h2>
+          <ul>
+           <li>Tenuta Montecchiesi Vermentino Chardonnay di Toscana 2019</li>
+           </ul>
           
            <h2>Places</h2>
+          
            <ul>
             <li>
               Haute-Savoie, France </li>
