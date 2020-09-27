@@ -16,7 +16,7 @@ const ListItem = ({ href, title, icon, image, readTime, created, category }) => 
         <p className=" absolute text-gray-500 text-xs bottom-0 left-0 mb-3 ml-4">{readTime} MIN 
         READ</p>
         <div id="demobox">
-        <p className="absolute text-gray-500 text-xs bottom-0 right-16  mb-3 ml-2">{category}</p>
+        <p className="h-50 shadow-black rounded-s mb-6 flex items-center justify-center relative">{category}</p>
         </div>
         </div>
       </a>
@@ -56,7 +56,7 @@ export default () => {
             <ListItem
               image="/img/blog/stemcell.jpg"
               href="/blog/stemcell"
-              title="Stem Cells Opened Developmental 'Blackbox'"
+              title="Stem Cells Open Developmental 'Blackbox'"
               readTime="5"
               created="June 2020"
               category="Science"
