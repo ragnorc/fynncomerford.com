@@ -31,7 +31,7 @@ export default () => {
       
      <div id="retainable-rss-embed" 
 data-rss="https://medium.com/feed/@fynncomerford"
-data-maxcols="3" 
+data-maxcols="2" 
 data-layout="grid" 
 data-poststyle="inline" 
 data-readmore="Read the rest" 
