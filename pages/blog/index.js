@@ -31,7 +31,7 @@ export default () => {
       
      <div id="retainable-rss-embed" 
 data-rss="https://medium.com/feed/@sabesan96"
-data-maxcols="2" 
+data-maxcols="3" 
 data-layout="slider" 
 data-poststyle="external" 
 data-readmore="Read the rest" 
