@@ -37,7 +37,7 @@ export default () => {
         </div>
       </div>
 <div id="retainable-rss-embed" 
-data-rss="https://medium.com/feed/@fynncomerford, https://medium.com/@fynncomerford/stem-cells-open-developmental-blackbox-78503cda3a51"
+data-rss="https://medium.com/feed/@fynncomerford, https://medium.com/@sabesan96"
 data-maxcols="2" 
 data-layout="grid" 
 data-poststyle="inline" 
