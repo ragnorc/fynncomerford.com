@@ -58,7 +58,7 @@ const Video = ({ url }) => {
                  <Video
                 url="https://www.youtube.com/watch?v=UEFDiW2HSVQ"
               ></Video>
-                <a data-pin-do="embedBoard" data-pin-lang="de" data-pin-board-width="10000" data-pin-scale-height="400" data-pin-scale-width="200" href="https://www.pinterest.de/fynncomerford/new/"></a>
+                <a data-pin-do="embedUser" data-pin-lang="de" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.de/fynncomerford"></a>
            
             </Masonry>
           </div>
