@@ -62,10 +62,11 @@ const Video = ({ url }) => {
            
             </Masonry>
           </div>
-          I just recently founded my videography company. You can check it out here.
+         
         </div>
         
-       
+      <a data-pin-do="embedBoard" data-pin-lang="de" data-pin-board-width="150" data-pin-scale-height="800" data-pin-scale-width="60" href="https://www.pinterest.de/fynncomerford/new/"></a>
+      <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
       </Layout>
     );
   };
