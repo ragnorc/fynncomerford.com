@@ -33,7 +33,16 @@ export default () => {
           <h1 className="text-5xl font-bold mb-12">
             <span className="text-primary">b</span>log
           </h1>
-        
+        <div id="retainable-rss-embed" 
+data-rss="https://medium.com/feed/@fynncomerford"
+data-maxcols="2" 
+data-layout="grid" 
+data-poststyle="inline" 
+<class="bold"
+data-readmore="Read the rest">
+data-buttonclass="btn btn-primary" 
+data-offset="-100"></div>
+<script src="https://www.retainable.app/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
         </div>
       </div>
 
