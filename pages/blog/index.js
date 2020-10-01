@@ -66,9 +66,8 @@ export default () => {
           </Masonry>
         </div>
       </div>
-      <div id="retainable-rss-embed" 
-data-rss="https://medium.com/feed/retainable,
-https://medium.com/@fynncomerford/is-reality-a-controlled-hallucination-7357503842c3"
+<div id="retainable-rss-embed" 
+data-rss="https://medium.com/feed/@fynncomerford"
 data-maxcols="3" 
 data-layout="grid" 
 data-poststyle="inline" 
