@@ -37,7 +37,7 @@ export default () => {
         </div>
       </div>
 <div id="retainable-rss-embed" 
-data-rss="https://medium.com/feed/@fynncomerford, https://medium.com/@sabesan96"
+data-rss="https://medium.com/feed/@fynncomerford,https://medium.com/@sabesan96"
 data-maxcols="2" 
 data-layout="grid" 
 data-poststyle="inline" 
