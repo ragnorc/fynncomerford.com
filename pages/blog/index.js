@@ -16,7 +16,7 @@ const ListItem = ({ href, title, icon, image, readTime, created, category }) => 
         <p className=" absolute text-gray-500 text-xs bottom-0 left-0 mb-3 ml-4">{readTime} MIN 
         READ</p>
         <div id="demobox">
-        <p className="h-50 shadow-black rounded-s mb-6 flex items-center justify-center relative">{category}</p>
+        <p className="absolute text-gray-500 text-xs bottom-0 right-16  mb-3 ml-2">{category}</p>
         </div>
         </div>
       </a>
@@ -28,22 +28,16 @@ const ListItem = ({ href, title, icon, image, readTime, created, category }) => 
 export default () => {
   return (
     <Layout>
-      <div className="flex">
-        <div className="pl-18 lg:pl-32 w-full leading-relaxed">
-          <h1 className="text-5xl font-bold mb-12">
-            <span className="text-primary">b</span>log
-          </h1>
-        
-        </div>
-      </div>
-<div id="retainable-rss-embed" 
-data-rss="https://medium.com/@sabesan96"
+      
+     <div id="retainable-rss-embed" 
+data-rss="https://medium.com/feed/@sabesan96"
 data-maxcols="3" 
 data-layout="grid" 
 data-poststyle="inline" 
 data-readmore="Read the rest" 
 data-buttonclass="btn btn-primary" 
 data-offset="-100"></div>
+<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
     </Layout>
   );
 };
