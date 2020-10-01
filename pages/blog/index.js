@@ -33,42 +33,12 @@ export default () => {
           <h1 className="text-5xl font-bold mb-12">
             <span className="text-primary">b</span>log
           </h1>
-          <Masonry
-            className="w-auto flex"
-            columnClassName="px-5"
-            breakpointCols={{
-              default: 3,
-              1000: 3,
-              700: 2,
-              500: 1,
-            }}
-          >
-            <ListItem
-              image="/img/illustrations/bookswallpaper.jpg"
-              href="/blog/blogpost1"
-              title="Reality: A Controlled Hallucination?"
-              readTime="10"
-              created="Jan 2020"
-              category="Philosophy"
-              
-             
-            ></ListItem>
-            <ListItem
-              image="/img/blog/stemcell.jpg"
-              href="/blog/stemcell"
-              title="Stem Cells Open Developmental 'Blackbox'"
-              readTime="5"
-              created="June 2020"
-              category="Science"
-            ></ListItem>
-            
-       
-          </Masonry>
+        
         </div>
       </div>
 <div id="retainable-rss-embed" 
 data-rss="https://medium.com/feed/@fynncomerford"
-data-maxcols="3" 
+data-maxcols="2" 
 data-layout="grid" 
 data-poststyle="inline" 
 data-readmore="Read the rest" 
