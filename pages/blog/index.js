@@ -30,10 +30,10 @@ export default () => {
     <Layout>
       
      <div id="retainable-rss-embed" 
-data-rss="https://medium.com/feed/@fynncomerford"
+data-rss="https://medium.com/feed/@sabesan96"
 data-maxcols="2" 
-data-layout="grid" 
-data-poststyle="inline" 
+data-layout="slider" 
+data-poststyle="external" 
 data-readmore="Read the rest" 
 data-buttonclass="btn btn-primary" 
 data-offset="-100"></div>
