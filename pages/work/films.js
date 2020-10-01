@@ -58,14 +58,14 @@ const Video = ({ url }) => {
                  <Video
                 url="https://www.youtube.com/watch?v=UEFDiW2HSVQ"
               ></Video>
-              
+                <a data-pin-do="embedBoard" data-pin-lang="de" data-pin-board-width="10000" data-pin-scale-height="400" data-pin-scale-width="200" href="https://www.pinterest.de/fynncomerford/new/"></a>
            
             </Masonry>
           </div>
          
         </div>
         
-    <a data-pin-do="embedBoard" data-pin-lang="de" data-pin-board-width="10000" data-pin-scale-height="400" data-pin-scale-width="200" href="https://www.pinterest.de/fynncomerford/new/"></a>
+  
       <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
       </Layout>
     );
