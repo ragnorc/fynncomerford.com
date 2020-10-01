@@ -67,8 +67,7 @@ export default () => {
         </div>
       </div>
       <div id="retainable-rss-embed" 
-data-rss="https://medium.com/feed/retainable,
-https://medium.com/feed/vue-mastery"
+data-rss="https://medium.com/@fynncomerford/is-reality-a-controlled-hallucination-7357503842c3"
 data-maxcols="3" 
 data-layout="grid" 
 data-poststyle="inline" 
