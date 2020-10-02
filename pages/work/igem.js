@@ -20,19 +20,18 @@ export default () => {
         <div className="flex mb-20">
           <img
             style={{ boxShadow: "0px 0px 45px 10px rgba(45, 56, 104, 0.5" }}
-            src="/img/illustrations/edventurenew.jpeg"
+            src="/img/illustrations/igemcompetition.png"
             className="rounded-lg w-1/4 mr-20 mb-4 hidden md:block xl:block xxl:block"
           ></img>
 
           <div>
-            <h1 className="text-5xl font-bold mb-8">EdVenture </h1>
+            <h1 className="text-5xl font-bold mb-8">Finding Nemo </h1>
             <p>
-              <strong>Status:</strong> Starting this September 
+              <strong>Status:</strong> In Progress 
             </p>
             
             <p>
-              <strong>Collaborators:</strong> Zara Zaman, Ragnor Comerford 
-          
+              <strong>Collaborators:</strong> Matteo Cese, 	Alexandru Popov, Ziyuan Xie, Samy zebda, Ying Yang, Jingyao Zhou, Bingyu Zhou, Ziyue Luo, Nan Ya, Zichen Feng, Yihan Liu, William Gouskov		
             </p>
             <p>
               <strong>Location:</strong> Edinburgh, UK

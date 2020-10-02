@@ -27,6 +27,23 @@ Frank Darabont
         <li>
         <a target="_blank" className="">
         
+          <span class="italic"> The Dreamers, </span>
+Bernardo Bertolucci
+          <br />
+        </a>
+        </li>
+         <li>
+        <a target="_blank" className="">
+        
+          <span class="italic"> The Social Dilemma, </span>
+Jeff Orlowski
+          <br />
+        </a>
+        </li>
+        
+        <li>
+        <a target="_blank" className="">
+        
           <span class="italic"> Parasite, </span>
 Bong Joon Ho
           <br />
@@ -38,6 +55,15 @@ Bong Joon Ho
          <span class="italic"> Human, </span>
            Yann Arthus-Bertrand
       
+          <br />
+        </a>
+        </li>
+           <li>
+        <a target="_blank" className="">
+        
+          <span class="italic"> Spirit, </span>
+Kelly Asbury, Lorna Cook
+
           <br />
         </a>
         </li>
