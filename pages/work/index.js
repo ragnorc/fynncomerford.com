@@ -20,6 +20,19 @@ export default () => {
             400: 1,
           }}
         >
+        <Link href="/work/medtech">
+            <a>
+              <div className="shadow-black rounded-lg mb-6 bg-gray-100">
+                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
+                  <img className="w-1/6 h-auto" src="img/illustrations/medicare.svg" />
+
+                  <div className="border-l-2 h-10 border-black mx-5"></div>
+                  <h2 className="text-lg">Keyhole Neurosurgery Medtech 
+              </h2>
+                </div>
+              </div>
+            </a>
+          </Link>
 
         <Link href="/work/igem">
             <a>
