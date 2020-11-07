@@ -76,11 +76,14 @@ export default () => {
         <TimelineItem
           left
           image="/img/illustrations/2020.svg"
+          minWidth="auto"
           text={<p>Beginning my third year of university, launched EdVenture, Edinburgh's first student-run accelerator programme. We are currently receiving applications to  <a target="https://edventure.vc/" className="underline">join the programme. </a> </p>} 
         />
         <TimelineItem
           right
           image="/img/illustrations/empty.svg"
+          minWidth="auto"
+          maxWidth="auto"
           text={<p>During the challenging pandemic, I interned in a VC firm, collaborated on two research papers and founded an accelerator. Check out my recent projects <a href="/work" className="underline">here. </a></p>} 
         />
 
@@ -88,6 +91,7 @@ export default () => {
         <TimelineItem
           left
           image="/img/illustrations/video.svg"
+          minWidth="auto"
           text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films" className="underline"s>here.</a></p>} 
         />
        
@@ -99,21 +103,25 @@ export default () => {
           <TimelineItem
             left
             image="/img/illustrations/exam.svg"
+            minWidth="auto"
             text="In 2018, I started my first year of Neuroscience at the University of Edinburgh. I finished the year top of my class with an average of 90,3%."
           />
            <TimelineItem
           right
           image="/img/illustrations/plane.svg"
+          minWidth="auto"
           text={<p>After wrapping up Magious, I travelled through Europe, Asia and South America. I wrote about some of my experiences in my <a href="/work/blog" className="underline"s>blog.</a></p>} 
         />
           <TimelineItem
             left
             image="/img/illustrations/magiousbook.svg"
+            minWidth="auto"
             text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/work/magious" className="underline">Find out more.</a></p>}
           />
           <TimelineItem
             right
             image="/img/illustrations/graduate.svg"
+            minWidth="auto"
             text="2017 High school: I graduated as the top student of my year with a 4.0 GPA [1.0 Abitur]."
           />
         
