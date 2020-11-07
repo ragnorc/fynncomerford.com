@@ -124,7 +124,12 @@ function Layout({ title = "Fynn Comerford", children }) {
                   icon={["fab", "instagram"]}
                 />
               </a>
-              
+                <a href="https://twitter.com/FynnComerford" target="_blank">
+                <FontAwesomeIcon
+                  className="text-2xl md:text-2.5xl mx-6"
+                  icon={["fab", "twitter"]}
+                />
+              </a>
             </div>
             <p className="mt-12 text-gray-700">
               Fynn Comerford © 2020 All rights reserved.

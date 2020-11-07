@@ -53,8 +53,7 @@ export default ({ initialQueriesData }) => {
             drop me a line
           </a>
           .
-          <br />
-          Please, bear in mind this page is not completely finished! I am also not a computer science major so please have some mercy ;)
+          
         </p>
         
       </div>
