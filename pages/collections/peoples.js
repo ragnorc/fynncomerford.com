@@ -60,6 +60,11 @@ Biochemist and leading figure in CRISPR-based genome editing
       
           <br />
         </a>
+         <a target="_blank" className="">
+         <span class="italic"> Sam Berns,</span> Activist
+      
+          <br />
+        </a>
        
         
       </div>
