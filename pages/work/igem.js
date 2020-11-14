@@ -96,8 +96,11 @@ Stripping back to the bare necessities for function also provides a safer altern
        
 
        <iframe src="https://uoe-my.sharepoint.com/personal/s1811556_ed_ac_uk/_layouts/15/Doc.aspx?sourcedoc={e0c5eff6-bc3f-4a97-9cdb-f03464307c0a}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+       <video width="320" height="240" controls>
+  <source src="/img/video/igemvid.mp4" type="video/mp4">
+   dsv</video>
     
-     
+    
       </div>
      
     </Layout>
