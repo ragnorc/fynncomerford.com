@@ -16,6 +16,8 @@ export default () => {
        
         
       </div>
+      
+
     
       <h1> Publications </h1>
       <br />
@@ -24,7 +26,15 @@ export default () => {
       <h4>Here is an overview of some research papers,   articles and essays I have published.</h4>
       <br /> 
       <br />
-      
+      <h2>Essays</h2> 
+      <a href="https://fynncomerford.medium.com/are-animals-moral-beings-an-essay-68ce12c6c3c0">Are animals moral beings?</a>
+      <a href="https://drive.google.com/file/d/15sLhbh7YAThs-FaBEj3KhRlo7uuqIkAz/view?usp=sharing">How circulating concentrations of prolactin are regulated
+and how this changes to support lactogenesis.</a>
+
+
+      <h2>Posters</h2>
+      <a href="https://drive.google.com/file/d/11pI3xHfw2ijk41HA1A4g1BU3hG9AnzWS/view?usp=sharing">How Pilocarpine and Tropicamide affect visual accommodation and pupil diameter</a>
+
       <h2>Research</h2>
       <br />
     
@@ -39,6 +49,7 @@ export default () => {
             
               <br />
               
+              <p>You can also find my full Researchgate profile <a class="underline" href="https://www.researchgate.net/profile/Fynn_Comerford"> here.<a/>
        </Layout>         
               
               
