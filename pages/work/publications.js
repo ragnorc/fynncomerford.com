@@ -50,7 +50,7 @@ export default () => {
             
               <br />
               
-              <p>You can also find my full Researchgate profile <a class="underline" href="https://www.researchgate.net/profile/Fynn_Comerford"> here.</a></p>
+              <p>You can also find my full ResearchGate profile <a class="underline" href="https://www.researchgate.net/profile/Fynn_Comerford"> here.</a></p>
        </Layout>         
               
               
