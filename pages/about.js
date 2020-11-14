@@ -75,7 +75,7 @@ export default () => {
 
         <TimelineItem
           right
-          image="/img/medicalresearch.svg"
+          image="/img/illustrations/medicalresearch.svg"
           minWidth="auto"
           text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell free<a href="/work/igem" className="underline">biosensor.</a> </p>} 
         />
