@@ -29,7 +29,7 @@ export default () => {
       <h2>Essays</h2> 
       <a href="https://fynncomerford.medium.com/are-animals-moral-beings-an-essay-68ce12c6c3c0">Are animals moral beings?</a>
       <a href="https://drive.google.com/file/d/15sLhbh7YAThs-FaBEj3KhRlo7uuqIkAz/view?usp=sharing">How circulating concentrations of prolactin are regulated
-and how this changes to support lactogenesis.</a>
+      and how this changes to support lactogenesis.</a>
 
 
       <h2>Posters</h2>
@@ -42,7 +42,7 @@ and how this changes to support lactogenesis.</a>
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <img className="w-1/6 h-auto " src="/img/illustrations/medicalresearch.svg" />
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
-                  <h6 href="https://www.researchgate.net/publication/345848669_A_Comparison_of_Machine_Learning_Approaches_for_Predicting_the_Progression_of_Crohn's_Disease"className="text-lg">Comerford, F., Comerford, R., Hussain Z., Ng, N., Hussain, A., Khan, A., Lees, C. A., "A Comparison of Machine Learning Approaches for Predicting the Progression of Crohn's Disease"<span className="italic">, SCOReD</span>, Batu Pahat, Johor, Malaysia, 2020, pp. 529-533, doi: 10.1109/SCOReD50371.2020.9251019.</h6>
+                  <h6  className="text-lg">Comerford, F., Comerford, R., Hussain Z., Ng, N., Hussain, A., Khan, A., Lees, C. A., "A Comparison of Machine Learning Approaches for Predicting the Progression of Crohn's Disease"<span className="italic">, SCOReD</span>, Batu Pahat, Johor, Malaysia, 2020, pp. 529-533, <a href="https://ieeexplore.ieee.org/document/9251019">doi: 10.1109/SCOReD50371.2020.9251019.</a></h6>
                 </div>
                 </div>
                 
