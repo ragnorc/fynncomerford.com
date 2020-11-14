@@ -95,11 +95,11 @@ Stripping back to the bare necessities for function also provides a safer altern
 </p>
        
 
-       
+        <iframe src="https://uoe-my.sharepoint.com/personal/s1811556_ed_ac_uk/_layouts/15/Doc.aspx?sourcedoc={e0c5eff6-bc3f-4a97-9cdb-f03464307c0a}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="350px" height="221px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
     
      
       </div>
-      <iframe src="https://uoe-my.sharepoint.com/personal/s1811556_ed_ac_uk/_layouts/15/Doc.aspx?sourcedoc={e0c5eff6-bc3f-4a97-9cdb-f03464307c0a}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="350px" height="221px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+     
     </Layout>
   );
 };
