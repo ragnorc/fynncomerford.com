@@ -13,7 +13,7 @@ export default ({ items, heading }) => {
        
         <a target="_blank" className="">
         
-          <span class="italic"> A Lot of Other Books, </span>
+          <span class="italic"> Call Me By Your Name, </span>
 André Aciman
           <br />
         </a>

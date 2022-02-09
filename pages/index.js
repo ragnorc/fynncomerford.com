@@ -20,6 +20,10 @@ export default ({ initialQueriesData }) => {
             2000,
             "!أهْلاً وَسَهْلاً ",
             2000,
+            "Willkommen!,
+            2000,
+            "Добро пожаловать!,
+            2000,
           ]}
           loop={Infinity}
           wrapper="h1"

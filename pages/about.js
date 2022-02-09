@@ -61,10 +61,8 @@ export default () => {
           <span className="text-primary">a</span>bout
         </h1>
         <p>
-          My name is Fynn Comerford and I’m currently studying Neuroscience at
-          the University of Edinburgh. Professionally, I am particularly interested venture capital, biotech and the development of innovative therapies. I also love venturing out
-          into physics and philosophy, I am passionate about filmmaking and
-          always up to any sorts of outdoor activity.
+          Hi! I'm Fynn. I’m currently studying Neuroscience at
+          the University of Edinburgh. 
         </p>
        
         <p>
