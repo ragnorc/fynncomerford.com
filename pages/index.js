@@ -20,9 +20,9 @@ export default ({ initialQueriesData }) => {
             2000,
             "!أهْلاً وَسَهْلاً ",
             2000,
-            "Willkommen!,
+            "Willkommen!",
             2000,
-            "Добро пожаловать!,
+            "Добро пожаловать!",
             2000,
           ]}
           loop={Infinity}
@@ -40,7 +40,7 @@ export default ({ initialQueriesData }) => {
             <a className="text-primary">projects </a>
           </Link>
           I am working on. On my 
-          <Link href="/blog">
+          <Link href="https://drive.google.com/file/d/13jZsVXm4RqhmhEnLGvsAfHGV5ATyL2kR/view?usp=sharing">
             <a className=" text-primary"> blog </a>
           </Link>
            you can read a bit about my thoughts as well as topics I am currently interested in.&nbsp;

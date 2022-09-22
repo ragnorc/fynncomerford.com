@@ -71,6 +71,19 @@ export default () => {
         </p>
         <div className="w-full mt-20">
 
+<TimelineItem
+          right
+          image="/img/illustrations/medicalresearch.svg"
+          minWidth="auto"
+          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell free<a href="/work/igem" className="underline">biosensor.</a> </p>} 
+        />
+        <TimelineItem
+          right
+          image="/img/illustrations/medicalresearch.svg"
+          minWidth="auto"
+          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell free<a href="/work/igem" className="underline">biosensor.</a> </p>} 
+        />
+
         <TimelineItem
           right
           image="/img/illustrations/medicalresearch.svg"
