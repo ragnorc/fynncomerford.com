@@ -83,11 +83,11 @@ function Layout({ title = "Fynn Comerford", children }) {
                 <a
                   target="_blank"
                   className={`ml-5 hover:text-primary`}
-                  href="https://drive.google.com/file/d/1ez8JC4zvkWM4K6V4QUZ1ICCKUwOqNYKR/view?usp=sharing"
+                  href="https://drive.google.com/file/d/13jZsVXm4RqhmhEnLGvsAfHGV5ATyL2kR/view?usp=sharing"
                 >
                   resume
                 </a>
-                <ActiveLink activeClassName="text-primary" href="/blog">
+                <ActiveLink activeClassName="text-primary" href="https://fynncomerford.medium.com/">
                   <a className={`ml-5 hover:text-primary`}>blog</a>
                 </ActiveLink>
               </div>
