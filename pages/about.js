@@ -61,8 +61,8 @@ export default () => {
           <span className="text-primary">a</span>bout
         </h1>
         <p>
-          Hi! I'm Fynn. I’m currently studying Neuroscience at
-          the University of Edinburgh. 
+          Hi! I'm Fynn. I just finished my undergraduate degree in  Neuroscience at
+          the University of Edinburgh which equipped me with the tools to explore the potential of biotechnology. I think we are at a stage where we can start thinking about cures instead of treatments and want to dedicate my professional life to the discovery and development of innovative therapies and cures for the world's most devastating diseases. 
         </p>
        
         <p>
@@ -71,32 +71,41 @@ export default () => {
         </p>
         <div className="w-full mt-20">
 
-<TimelineItem
-          right
-          image="/img/illustrations/medicalresearch.svg"
+          
+             <TimelineItem
+          left
+          image="/img/illustrations/2020.svg"
           minWidth="auto"
-          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell free<a href="/work/igem" className="underline">biosensor.</a> </p>} 
+          text={<p>I concluded my degree with <a target="https://edventure.vc/emerge" className="underline">preclinical research</a> of multi-component pharmacotherapies for Multiple Sclerosis</p>} 
         />
-        <TimelineItem
+             <TimelineItem
           right
-          image="/img/illustrations/medicalresearch.svg"
+          image="/img/illustrations/2020.svg"
           minWidth="auto"
-          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell free<a href="/work/igem" className="underline">biosensor.</a> </p>} 
+          text={<p>In november 2021, I organized Europe's biggest ever student founder conference, <a target="https://edventure.vc/emerge" className="underline">edventure emerge</a> </p>} 
         />
 
-        <TimelineItem
-          right
-          image="/img/illustrations/medicalresearch.svg"
-          minWidth="auto"
-          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell free<a href="/work/igem" className="underline">biosensor.</a> </p>} 
-        />
-       
+
         <TimelineItem
           left
           image="/img/illustrations/2020.svg"
           minWidth="auto"
-          text={<p>Beginning my third year of university, launched EdVenture, Edinburgh's first student-run accelerator programme.  <a target="https://edventure.vc/" className="underline">More. </a> </p>} 
+          text={<p>In my 3rd year, I started <a target="https://edventure.vc/" className="underline">edventure,  </a> Europe's biggest student-run accelerator.</p>} 
         />
+          
+<TimelineItem
+          right
+          image="/img/illustrations/medicalresearch.svg"
+          minWidth="auto"
+          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell-free <a href="/work/igem" className="underline">biosensor.</a> </p>} 
+        />
+<TimelineItem
+          left
+          image="/img/illustrations/medicalresearch.svg"
+          minWidth="auto"
+          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell-free <a href="/work/igem" className="underline">biosensor.</a> </p>} 
+        />
+
         <TimelineItem
           right
           image="/img/illustrations/empty.svg"

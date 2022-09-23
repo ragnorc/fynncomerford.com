@@ -20,7 +20,17 @@ export default () => {
             400: 1,
           }}
         >
-       
+       <Link href="/work/magious">
+            <a>
+              <div className="shadow-black rounded-lg bg-gray-100 mb-6">
+                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
+                  <img className="w-1/5 h-auto " src="/img/illustrations/magiouswork.svg" />
+                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
+                  <h2 className="text-lg">edventure</h2>
+                </div>
+              </div>
+            </a>
+          </Link>
 
         <Link href="/work/igem">
             <a>
@@ -29,7 +39,7 @@ export default () => {
                   <img className="w-1/6 h-auto" src="img/illustrations/science.svg" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">iGEM Synthetic Biology 
+                  <h2 className="text-lg">iGEM 
               </h2>
                 </div>
               </div>
@@ -48,6 +58,7 @@ export default () => {
               </div>
             </a>
           </Link>
+          
           <Link href="/work/publications">
             <a>
               <div className="shadow-black rounded-lg mb-6 bg-gray-100">
@@ -55,7 +66,7 @@ export default () => {
                   <img className="w-1/6 h-auto" src="img/illustrations/publication.svg" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Publications
+                  <h2 className="text-lg">Research 
               </h2>
                 </div>
               </div>
@@ -68,7 +79,7 @@ export default () => {
                   <img className="w-1/6 h-auto" src="img/illustrations/video.svg" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Comerford Filmmaking
+                  <h2 className="text-lg">Amygdala Studios
               </h2>
                 </div>
               </div>
