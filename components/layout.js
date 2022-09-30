@@ -130,9 +130,17 @@ function Layout({ title = "Fynn Comerford", children }) {
                   icon={["fab", "twitter"]}
                 />
               </a>
+              <a href="https://github.com/FynnCOM">
+                <FontAwesomeIcon
+                  className="text-2xl md:text-2.5xl mx-6"
+                  icon={["fab", "github"]}
+                  
+                />
+              </a>
+              
             </div>
             <p className="mt-12 text-gray-700">
-              Fynn Comerford © 2020 All rights reserved.
+              Fynn Comerford © 2022 All rights reserved.
             </p>
           </div>
         </div>
