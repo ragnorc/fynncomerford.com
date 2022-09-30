@@ -36,22 +36,11 @@ export default ({ items, heading }) => {
           </li>
         </ul>
           <br />
-          <h2>Poems</h2>
-          <ul>
-            <li>
-              Desiderata </li>
-            <li>  Do Not Go Gentle </li>
-            <li> Do Not Stand By My Grave And Weep </li>
-          </ul>
+         
           <h2>Wine</h2>
           <ul>
            <li>Tenuta Montecchiesi Vermentino Chardonnay di Toscana 2019</li>
-           </ul>
-          <h2>Music</h2>
-          <ul>
-           <li>Ozuna</li>
-           <li>Cigarettes after sex</li>
-           </ul>
+        
            
           
            <h2>Places</h2>

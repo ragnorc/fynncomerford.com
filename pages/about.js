@@ -62,7 +62,7 @@ export default () => {
         </h1>
         <p>
           Hi! I'm Fynn. I just finished my undergraduate degree in  Neuroscience at
-          the University of Edinburgh which equipped me with the tools to explore the potential of biotechnology. I think we are at a stage where we can start thinking about cures instead of treatments and want to dedicate my professional life to the discovery and development of innovative therapies and cures for the world's most devastating diseases. 
+          the University of Edinburgh which equipped me with the tools to explore the potential of biotechnology. I think we are at a stage where we can start thinking about cures instead of treatments and want to dedicate my professional life to the discovery and development of innovative therapies and cures for the world's most devastating diseases. For this reason, I am currently trying to learn everything about the body in health and disease to find out how best to fix it.
         </p>
        
         <p>
@@ -131,19 +131,20 @@ export default () => {
             left
             image="/img/illustrations/exam.svg"
             minWidth="auto"
-            text="In 2018, I started my first year of Neuroscience at the University of Edinburgh. I finished the year top of my class with an average of 90,3%."
+            text="In 2018, I started my first year of Neuroscience at the University of Manchester. 
           />
            <TimelineItem
           right
           image="/img/illustrations/plane.svg"
           minWidth="auto"
-          text={<p>After wrapping up Magious, I travelled through Europe, Asia and South America. I wrote about some of my experiences in my <a href="/work/blog" className="underline"s>blog.</a></p>} 
+          text={<p>After wrapping up Magious, I travelled through Europe, Asia and South America. I wrote about some of my experiences <a href="/work/blog" className="underline"s>here.</a></p>} 
         />
           <TimelineItem
             left
             image="/img/illustrations/magiousbook.svg"
             minWidth="auto"
-            text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/work/magious" className="underline">Find out more.</a></p>}
+            text={<p>2017 Magious: After graduating a 
+              publishing company contracted the startup I had founded in highschool. <a href="/work/magious" className="underline">Find out more.</a></p>}
           />
           <TimelineItem
             right
