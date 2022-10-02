@@ -80,13 +80,8 @@ function Layout({ title = "Fynn Comerford", children }) {
                 <ActiveLink activeClassName="text-primary" href="/collections">
                   <a className={`ml-5 hover:text-primary`}>collections</a>
                 </ActiveLink>
-                <a
-                  target="_blank"
-                  className={`ml-5 hover:text-primary`}
-                  href="https://drive.google.com/file/d/13jZsVXm4RqhmhEnLGvsAfHGV5ATyL2kR/view?usp=sharing"
-                >
-                  resume
-                </a>
+               
+                
                 <ActiveLink activeClassName="text-primary" href="https://fynncomerford.medium.com/">
                   <a className={`ml-5 hover:text-primary`}>blog</a>
                 </ActiveLink>
