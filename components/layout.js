@@ -161,7 +161,7 @@ function Layout({ title = "Fynn Comerford", children }) {
             </ActiveLink>
             <ActiveLink activeClassName="text-primary" href="/work">
               <a>projects</a>
-            </ActiveLink>
+            </ActiveLink> 
             <ActiveLink activeClassName="text-primary" href="/collections">
               <a>collections</a>
             </ActiveLink>
