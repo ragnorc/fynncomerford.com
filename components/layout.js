@@ -80,10 +80,15 @@ function Layout({ title = "Fynn Comerford", children }) {
                 <ActiveLink activeClassName="text-primary" href="/collections">
                   <a className={`ml-5 hover:text-primary`}>collections</a>
                 </ActiveLink>
-               
+                <ActiveLink activeClassName="text-primary" href="/work">
+                  <a className={`ml-5 hover:text-primary`}>publications</a>
+                </ActiveLink>
                 
+                <ActiveLink activeClassName="text-primary" href="/work">
+                  <a className={`ml-5 hover:text-primary`}>resume</a>
+                </ActiveLink>
                 <ActiveLink activeClassName="text-primary" href="https://fynncomerford.medium.com/">
-                  <a className={`ml-5 hover:text-primary`}>blog</a>
+                  <a className={`ml-5 hover:text-primary`}>writing</a>
                 </ActiveLink>
               </div>
             </div>
@@ -156,7 +161,7 @@ function Layout({ title = "Fynn Comerford", children }) {
             </ActiveLink>
             <ActiveLink activeClassName="text-primary" href="/work">
               <a>projects</a>
-            </ActiveLink> 
+            </ActiveLink>
             <ActiveLink activeClassName="text-primary" href="/collections">
               <a>collections</a>
             </ActiveLink>
