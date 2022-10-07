@@ -76,6 +76,7 @@ export default () => {
           minWidth="auto"
           text={<p>Currently, I'm sharpening my toolkit in San Francisco.</p>}
 
+              />
           
              <TimelineItem
           left
