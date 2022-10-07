@@ -61,7 +61,7 @@ export default () => {
           <span className="text-primary">a</span>bout
         </h1>
         <p>
-          Hi! I'm Fynn. I just finished my undergraduate degree in  Neuroscience at
+          Hi! Fynn. I just finished my undergraduate degree in  Neuroscience at
           the University of Edinburgh which equipped me with the tools to explore the potential of biotechnology. I think we are at a stage where we can start thinking about cures instead of treatments and want to dedicate my professional life to the discovery and development of innovative therapies and cures for the world's most devastating diseases. 
         </p>
        
