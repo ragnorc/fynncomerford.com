@@ -71,35 +71,35 @@ export default () => {
         <div className="w-full mt-20">
 
             <TimelineItem
-          right
-          image="/img/illustrations/scientist.svg"
+          left
+          image="/img/illustrations/learning.svg"
           minWidth="auto"
           text={<p>Currently, I'm sharpening my toolkit in San Francisco.</p>}
 
               />
           
              <TimelineItem
-          left
+          right
           image="/img/illustrations/scientist.svg"
           minWidth="auto"
           text={<p>In 2022, I concluded my degree with <a target="https://edventure.vc/emerge" className="underline">preclinical research</a> in the Lyons Lab.</p>} 
         />
              <TimelineItem
-          right
+          left
           image="/img/illustrations/conference.svg"
           minWidth="auto"
           text={<p>In 2021, I organized and hosted<a target="https://edventure.vc/emerge" className="underline">edventure emerge</a>edventure emerge</p>} 
         />
 
         <TimelineItem
-          left
+          right
           image="/img/illustrations/2020.svg"
           minWidth="auto"
           text={<p>In late 2020, I started <a target="https://edventure.vc/" className="underline">edventure</a>.</p>} 
         />
           
 <TimelineItem
-          right
+          left
           image="/img/illustrations/medicalresearch.svg"
           minWidth="auto"
           text={<p>I also had the chance to participate in<a href="/work/igem" className="underline">iGEM</a>.</p>} 
