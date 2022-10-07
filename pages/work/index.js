@@ -82,13 +82,7 @@ export default () => {
             </a>
           </Link>
           
-          <Link href="/work/publications">
-            <a>
-              <div className="shadow-black rounded-lg mb-6 bg-gray-100">
-                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
-                  <img className="w-1/6 h-auto" src="img/illustrations/publication.svg" />
-
-                
+     
                <Link href="/work/films">
             <a>
               <div className="shadow-black rounded-lg mb-6 bg-gray-100">
