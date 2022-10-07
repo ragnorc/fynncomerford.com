@@ -29,20 +29,21 @@ export default ({ initialQueriesData }) => {
           wrapper="h1"
         />
         <p className="mt-6">
-         Thanks for visiting my page.  If you don't know me yet, have a quick look at my {" "}
+         Thanks for being here. If you don't know me yet, have a quick look at my {" "}
           <Link href="/about">
             <a className=" text-primary">about</a>
           </Link>{" "}
           page.
 
-      Here, I have outlined some of the {" "}
+     Here, I have outlined some of the {" "}
           <Link href="/work">
             <a className="text-primary">projects </a>
           </Link>
-          I am working on and what I've been up to recently. 
+          I am working on and have done in the past. 
           
-          On m
-           you can read a bit about my thoughts as well as topics I am currently interested in.&nbsp;
+          
+           you can read a bit about my thoughts as well as topics I am currently interested in.
+          
           I also compile a{" "}
           <Link href="/collections/">
             <a className=" text-primary">collection</a>

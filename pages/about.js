@@ -62,48 +62,46 @@ export default () => {
         </h1>
         <p>
           Hi! I'm Fynn. I just finished my undergraduate degree in  Neuroscience at
-          the University of Edinburgh which equipped me with the tools to explore the potential of biotechnology. I think we are at a stage where we can start thinking about cures instead of treatments and want to dedicate my professional life to the discovery and development of innovative therapies and cures for the world's most devastating diseases. 
+          the University of Edinburgh where I've been equipped tools to explore the potential of biotechnology. I believe ut is in our economic and technological grasp to reduce suffering by developing therapies and cures to alleviate suffering from the world's most devastating diseases. This is something I want to dedicate my professional life to. 
         </p>
        
         <p>
-          Here, you can see a timeline as a brief overview of what I have done
-          in recent years.
+          Here, you can see a timeline as a brief overview of what I've been up to recently.
         </p>
         <div className="w-full mt-20">
+
+            <TimelineItem
+          right
+          image="/img/illustrations/scientist.svg"
+          minWidth="auto"
+          text={<p>Currently, I'm sharpening my toolkit in San Francisco.</p>}
 
           
              <TimelineItem
           left
-          image="/img/illustrations/2020.svg"
+          image="/img/illustrations/scientist.svg"
           minWidth="auto"
-          text={<p>I concluded my degree with <a target="https://edventure.vc/emerge" className="underline">honours research</a> in the Lyons Lab</p>} 
+          text={<p>In 2022, I concluded my degree with <a target="https://edventure.vc/emerge" className="underline">preclinical research</a> in the Lyons Lab.</p>} 
         />
              <TimelineItem
           right
-          image="/img/illustrations/2020.svg"
+          image="/img/illustrations/conference.svg"
           minWidth="auto"
-          text={<p>In november 2021, I organized Europe's biggest ever student founder conference, <a target="https://edventure.vc/emerge" className="underline">edventure emerge</a> </p>} 
+          text={<p>In 2021, I organized and hosted<a target="https://edventure.vc/emerge" className="underline">edventure emerge</a>edventure emerge</p>} 
         />
-
 
         <TimelineItem
           left
           image="/img/illustrations/2020.svg"
           minWidth="auto"
-          text={<p>In my 3rd year, I started <a target="https://edventure.vc/" className="underline">edventure,  </a> Europe's biggest student-run accelerator.</p>} 
+          text={<p>In late 2020, I started <a target="https://edventure.vc/" className="underline">edventure</a>.</p>} 
         />
           
 <TimelineItem
           right
           image="/img/illustrations/medicalresearch.svg"
           minWidth="auto"
-          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell-free <a href="/work/igem" className="underline">biosensor.</a> </p>} 
-        />
-<TimelineItem
-          left
-          image="/img/illustrations/medicalresearch.svg"
-          minWidth="auto"
-          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell-free <a href="/work/igem" className="underline">biosensor.</a> </p>} 
+          text={<p>I also had the chance to participate in<a href="/work/igem" className="underline">iGEM</a>.</p>} 
         />
 
         <TimelineItem
@@ -111,47 +109,45 @@ export default () => {
           image="/img/illustrations/empty.svg"
           minWidth="auto"
           maxWidth="auto"
-          text={<p>During the challenging pandemic, I interned in a VC firm, collaborated on two research papers and founded an accelerator. Check out my recent projects <a href="/work" className="underline">here. </a></p>} 
+          text={<p>In 2020 I interned at a VC and published my <a href="/work/edventure" className="underline">first paper</a>.</p>} 
         />
-
-
         <TimelineItem
           left
           image="/img/illustrations/video.svg"
           minWidth="auto"
-          text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films" className="underline"s>here.</a></p>} 
+          text={<p>Meanwhile, I developed a great passion for filmmaking. <a href="/work/films" className="underline"s>Here's</a>what I've created.</p>} 
         />
        
         <TimelineItem
           right
           image="/img/illustrations/doctor.svg"
-          text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
+          text="In 2019, I transferred to the University of Edinburgh."
         />
           <TimelineItem
             left
             image="/img/illustrations/exam.svg"
             minWidth="auto"
-            text="In 2018, I started my first year of Neuroscience at the University of Edinburgh. I finished the year top of my class with an average of 90,3%."
+            text="In 2018, I started stuyding Neuroscience at the University of Manchester."
           />
            <TimelineItem
           right
           image="/img/illustrations/plane.svg"
           minWidth="auto"
-          text={<p>After wrapping up Magious, I travelled through Europe, Asia and South America. I wrote about some of my experiences in my <a href="/work/blog" className="underline"s>blog.</a></p>} 
+          text={<p>Before university, I travelled through Europe, Asia and South America. <a href="/work/blog" className="underline"s>Here's</a>what I experienced and learned.</p>} 
         />
+          
           <TimelineItem
             left
-            image="/img/illustrations/magiousbook.svg"
-            minWidth="auto"
-            text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/work/magious" className="underline">Find out more.</a></p>}
-          />
-          <TimelineItem
-            right
             image="/img/illustrations/graduate.svg"
             minWidth="auto"
-            text="2017 High school: I graduated as the top student of my year with a 4.0 GPA [1.0 Abitur]."
+            text="In 2017, I graduated valedictorian from high school"
           />
-        
+        <TimelineItem
+            right
+            image="/img/illustrations/magiousbook.svg"
+            minWidth="auto"
+            text={<p>In 2015, I started my first company,<a href="/work/magious" className="underline">Magious</a>.</p>}
+          />
       </div>
       </div>
     </Layout>

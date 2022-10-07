@@ -20,6 +20,29 @@ export default () => {
             400: 1,
           }}
         >
+
+          <Link href="/work/magious">
+            <a>
+              <div className="shadow-black rounded-lg bg-gray-100 mb-6">
+                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
+                  <img className="w-1/5 h-auto " src="/img/illustrations/magiouswork.svg" />
+                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
+                  <h2 className="text-lg">Preclinical research of Ms therapies, Lyons Lab</h2>
+                </div>
+              </div>
+            </a>
+          </Link>
+          <Link href="/work/magious">
+            <a>
+              <div className="shadow-black rounded-lg bg-gray-100 mb-6">
+                <div className="flex w-full justify-center items-center h-48 xxl:h-64">
+                  <img className="w-1/5 h-auto " src="/img/illustrations/magiouswork.svg" />
+                  <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
+                  <h2 className="text-lg">edventure emerge</h2>
+                </div>
+              </div>
+            </a>
+          </Link>
        <Link href="/work/magious">
             <a>
               <div className="shadow-black rounded-lg bg-gray-100 mb-6">
