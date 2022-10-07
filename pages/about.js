@@ -62,7 +62,7 @@ export default () => {
         </h1>
         <p>
           Hi! I'm Fynn. I just finished my undergraduate degree in  Neuroscience at
-          the University of Edinburgh which equipped me with the tools to explore the potential of biotechnology. I think we are at a stage where we can start thinking about cures instead of treatments and want to dedicate my professional life to the discovery and development of innovative therapies and cures for the world's most devastating diseases. For this reason, I am currently trying to learn everything about the body in health and disease to find out how best to fix it.
+          the University of Edinburgh which equipped me with the tools to explore the potential of biotechnology. I think we are at a stage where we can start thinking about cures instead of treatments and want to dedicate my professional life to the discovery and development of innovative therapies and cures for the world's most devastating diseases. 
         </p>
        
         <p>
@@ -87,17 +87,23 @@ export default () => {
 
 
         <TimelineItem
-          right
+          left
           image="/img/illustrations/2020.svg"
           minWidth="auto"
           text={<p>In my 3rd year, I started <a target="https://edventure.vc/" className="underline">edventure,  </a> Europe's biggest student-run accelerator.</p>} 
         />
           
 <TimelineItem
+          right
+          image="/img/illustrations/medicalresearch.svg"
+          minWidth="auto"
+          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell-free <a href="/work/igem" className="underline">biosensor.</a> </p>} 
+        />
+<TimelineItem
           left
           image="/img/illustrations/medicalresearch.svg"
           minWidth="auto"
-          text={<p>In 2020, I also took part in<a href="/work/igem" className="underline">iGEM</a>.</p>} 
+          text={<p>During the pandemic, I also participated in the synthetic biology competition iGEM where we created a cell-free <a href="/work/igem" className="underline">biosensor.</a> </p>} 
         />
 
         <TimelineItem
@@ -105,7 +111,7 @@ export default () => {
           image="/img/illustrations/empty.svg"
           minWidth="auto"
           maxWidth="auto"
-          text={<p>During the pandemic, I started some exciting <a href="/work" className="underline">projects</a>.</p>} 
+          text={<p>During the challenging pandemic, I interned in a VC firm, collaborated on two research papers and founded an accelerator. Check out my recent projects <a href="/work" className="underline">here. </a></p>} 
         />
 
 
@@ -113,37 +119,37 @@ export default () => {
           left
           image="/img/illustrations/video.svg"
           minWidth="auto"
-          text={<p>Meanwhile, I developed a great passion for filmmaking. <a href="/work/films" className="underline"s>Here's</a> what I've done.</p>} 
+          text={<p>Meanwhile, I developed a great passion for filmmaking. You can see some of my clips <a href="/work/films" className="underline"s>here.</a></p>} 
         />
        
         <TimelineItem
           right
           image="/img/illustrations/doctor.svg"
-          text="In 2019 I transferrred to study Neuroscience at the University of Edinburgh."
+          text="2019 For the second year of my studies, I transferred to the University of Edinburgh."
         />
           <TimelineItem
             left
             image="/img/illustrations/exam.svg"
             minWidth="auto"
-            text="In 2018, I started studying Neuroscience at the University of Manchester. 
+            text="In 2018, I started my first year of Neuroscience at the University of Edinburgh. I finished the year top of my class with an average of 90,3%."
           />
            <TimelineItem
           right
           image="/img/illustrations/plane.svg"
           minWidth="auto"
-          text={<p>Before university, I also travelled through South America and Asia.</p>} 
+          text={<p>After wrapping up Magious, I travelled through Europe, Asia and South America. I wrote about some of my experiences in my <a href="/work/blog" className="underline"s>blog.</a></p>} 
         />
           <TimelineItem
             left
             image="/img/illustrations/magiousbook.svg"
             minWidth="auto"
-            text={<p>I, then,started my first company -<a href="/work/magious" className="underline">Magious.</a></p>}
+            text={<p>2017 Magious: Shortly after graduating, a German publishing company contracted the startup I had founded in highschool. <a href="/work/magious" className="underline">Find out more.</a></p>}
           />
           <TimelineItem
             right
             image="/img/illustrations/graduate.svg"
             minWidth="auto"
-            text="In 2017 I graduated from high school"
+            text="2017 High school: I graduated as the top student of my year with a 4.0 GPA [1.0 Abitur]."
           />
         
       </div>

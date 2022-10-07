@@ -80,15 +80,15 @@ function Layout({ title = "Fynn Comerford", children }) {
                 <ActiveLink activeClassName="text-primary" href="/collections">
                   <a className={`ml-5 hover:text-primary`}>collections</a>
                 </ActiveLink>
-                <ActiveLink activeClassName="text-primary" href="/work">
-                  <a className={`ml-5 hover:text-primary`}>publications</a>
-                </ActiveLink>
-                
-                <ActiveLink activeClassName="text-primary" href="/work">
-                  <a className={`ml-5 hover:text-primary`}>resume</a>
-                </ActiveLink>
+                <a
+                  target="_blank"
+                  className={`ml-5 hover:text-primary`}
+                  href="https://drive.google.com/file/d/13jZsVXm4RqhmhEnLGvsAfHGV5ATyL2kR/view?usp=sharing"
+                >
+                  resume
+                </a>
                 <ActiveLink activeClassName="text-primary" href="https://fynncomerford.medium.com/">
-                  <a className={`ml-5 hover:text-primary`}>writing</a>
+                  <a className={`ml-5 hover:text-primary`}>blog</a>
                 </ActiveLink>
               </div>
             </div>
@@ -130,17 +130,9 @@ function Layout({ title = "Fynn Comerford", children }) {
                   icon={["fab", "twitter"]}
                 />
               </a>
-              <a href="https://github.com/FynnCOM">
-                <FontAwesomeIcon
-                  className="text-2xl md:text-2.5xl mx-6"
-                  icon={["fab", "github"]}
-                  
-                />
-              </a>
-              
             </div>
             <p className="mt-12 text-gray-700">
-              Fynn Comerford © 2022 All rights reserved.
+              Fynn Comerford © 2020 All rights reserved.
             </p>
           </div>
         </div>

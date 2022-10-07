@@ -34,7 +34,18 @@ André Aciman
           <br />
         </a>
         
-
+        <a target="_blank" className="">
+         <span class="italic"> We should all be feminists,</span> Chimamanda Ngozi Adichie
+      
+          <br />
+        </a>
+        
+        <a target="_blank" className="">
+          <span class="italic">Homo Deus and Homo Sapiens,</span> Yuval Noah Harari 
+      
+          <br />
+        </a>
+        
         <a target="_blank" className="">
           <span class="italic">Shake hands with the devil,</span> Roméo Dallaire 
       

@@ -22,6 +22,8 @@ export default ({ initialQueriesData }) => {
             2000,
             "Willkommen!",
             2000,
+            "Добро пожаловать!",
+            2000,
           ]}
           loop={Infinity}
           wrapper="h1"
@@ -39,7 +41,10 @@ export default ({ initialQueriesData }) => {
           </Link>
           I am working on and what I've been up to recently. 
           
-          On my blog
+          On my
+          <Link href="https://drive.google.com/file/d/13jZsVXm4RqhmhEnLGvsAfHGV5ATyL2kR/view?usp=sharing">
+            <a className=" text-primary"> blog </a>
+          </Link>
            you can read a bit about my thoughts as well as topics I am currently interested in.&nbsp;
           I also compile a{" "}
           <Link href="/collections/">
