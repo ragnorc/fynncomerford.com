@@ -43,7 +43,7 @@ export default () => {
               </div>
             </a>
           </Link>
-       <Link href="/work/magious">
+       <Link href="/work/edventure">
             <a>
               <div className="shadow-black rounded-lg bg-gray-100 mb-6">
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
