@@ -55,12 +55,12 @@ export default () => {
       class="underline"
     href="https://fynncomerford.medium.com/predictive-coding-a-unified-theory-of-cognition-in-health-and-disease-afcb4523e525">Predictive Coding: A Unified Theory of Cognition in Health and Disease?</a>
       <br />
-      <br />
+    
       <a 
       class="underline"
     href="https://fynncomerford.medium.com/are-animals-moral-beings-an-essay-68ce12c6c3c0">Are animals moral beings?</a>
       <br /> 
-        <br />
+    
       <a class="underline" href="https://drive.google.com/file/d/15sLhbh7YAThs-FaBEj3KhRlo7uuqIkAz/view?usp=sharing">How circulating concentrations of prolactin are regulated
       and how this changes to support lactogenesis.</a>
 
