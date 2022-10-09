@@ -142,7 +142,7 @@ function Layout({ title = "Fynn Comerford", children }) {
             <X className="h-5"></X>
           </button>
           <div className="flex flex-col items-end mt-20 mr-8">
-            <ActiveLink activeClassName="text-primary" href="/" exact>
+            <ActiveLink activeClassName="text-primary" href="/">
               <a>home</a>
             </ActiveLink>
             <ActiveLink activeClassName="text-primary" href="/about">
