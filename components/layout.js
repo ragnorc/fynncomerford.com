@@ -68,7 +68,7 @@ function Layout({ title = "Fynn Comerford", children }) {
               </Link>
 
               <div className="text-black  flex items-center justify-between hidden lg:block xl:block">
-                <ActiveLink activeClassName="text-primary" href="/" exact>
+                <ActiveLink activeClassName="text-primary" href="/">
                   <a className={`ml-5 hover:text-primary`}>home</a>
                 </ActiveLink>
                 <ActiveLink activeClassName="text-primary" href="/about">
@@ -84,12 +84,12 @@ function Layout({ title = "Fynn Comerford", children }) {
                   <a className={`ml-5 hover:text-primary`}>collections</a>
                 </ActiveLink>
                
-                <ActiveLink activeClassName="text-primary" href="https://fynncomerford.medium.com/">
+                <ActiveLink activeClassName="text-primary" href="https://fynncomerford.medium.com">
                   <a className={`ml-5 hover:text-primary`}>thoughts</a>
                 </ActiveLink>
               </div>
             </div>
-          </header>
+          </header>/
           {children}
         </div>
         <div className="flex items-center justify-center py-10 mt-40">
