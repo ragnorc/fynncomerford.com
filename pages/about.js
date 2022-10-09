@@ -61,7 +61,7 @@ export default () => {
           <span className="text-primary">a</span>bout
         </h1>
         <p>
-          Hi! I'm Fynn. I just finished my undergraduate degree in  Neuroscience at
+          Hi! 2why s euwonfondeI'm Fynn. I just finished my undergraduate degree in  Neuroscience at
           the University of Edinburgh where I've been equipped tools to explore the potential of biotechnology. I believe ut is in our economic and technological grasp to reduce suffering by developing therapies and cures to alleviate suffering from the world's most devastating diseases. This is something I want to dedicate my professional life to. 
         </p>
        
