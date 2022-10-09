@@ -9,7 +9,7 @@ export default () => {
           <div>
             <h1 className="text-5xl font-bold mb-8">Magious</h1>
             <p>
-              <strong>Type:</strong> Self-employed 
+              <strong>Type:</strong> Self-employed
             </p>
             <p>
               <strong>Period:</strong> 2020 - 2023
@@ -23,7 +23,7 @@ export default () => {
               >
                 Ragnor Comerford,
               </a>
-            <a
+              <a
                 target="_blank"
                 className="underline"
                 href="https://www.zarazaman.com/"
@@ -34,53 +34,74 @@ export default () => {
             <p>
               <strong>Location:</strong> Edinburgh, Scotland
             </p>
-           
+
             <a href="https://edventure.vc">
-              <img className="w-1/6 h-auto mt-5" src="/img/illustrations/edventure_logo.svg" />
+              <img
+                className="w-1/6 h-auto mt-5"
+                src="/img/illustrations/edventure_logo.svg"
+              />
             </a>
           </div>
         </div>
         <p>
-          In late 2020, I co-founded edventure, a community of founders, makers, builders, and researchers who seek to solve problems, collaborate and learn. edventure's mission consists of leveraging entrepreneurship and innovation in science to tackle our planet's most pressing issues. We take a problem-led approach to building startups and provide a path to achieving the United Nations Sustainable Development Goals.
+          In late 2020, I co-founded edventure, a community of founders, makers,
+          builders, and researchers who seek to solve problems, collaborate and
+          learn. edventure's mission consists of leveraging entrepreneurship and
+          innovation in science to tackle our planet's most pressing issues. We
+          take a problem-led approach to building startups and provide a path to
+          achieving the United Nations Sustainable Development Goals.
         </p>
 
         <p className="mt-5">
-          edventure was initially conceived as a sector-agnostic accelerator for undergraduate students which rapidly evolved to comprise multiple accelerators and incubators providing over 250 students with the tools they need to start their own ventures. We drew expertise for these programs from our amazing speakers which included the likes of Gareth Williams (Skyscanner), James Watt (BrewDog), Celine Halioua (Loyal) or Nigel Eccles (Flick).
+          edventure was initially conceived as a sector-agnostic accelerator for
+          undergraduate students which rapidly evolved to comprise multiple
+          accelerators and incubators providing over 250 students with the tools
+          they need to start their own ventures. We drew expertise for these
+          programs from our amazing speakers which included the likes of Gareth
+          Williams (Skyscanner), James Watt (BrewDog), Celine Halioua (Loyal) or
+          Nigel Eccles (Flick).
         </p>
 
-        <p>As edventure grew, we were comissioned by multiple universities (University of Edinburgh, Heriot Watt) and organizations (Edinburgh Innovations, Bayes Centre) and even Cancer Research UK to run incubators for their network. For Cancer Research UK, we developed incubators that helped oncologist and cancer researchers translate to their research to therapeutics. </p>
+        <p>
+          As edventure grew, we were comissioned by multiple universities
+          (University of Edinburgh, Heriot Watt) and organizations (Edinburgh
+          Innovations, Bayes Centre) and even Cancer Research UK to run
+          incubators for their network. For Cancer Research UK, we developed
+          incubators that helped oncologist and cancer researchers translate to
+          their research to therapeutics.{" "}
+        </p>
         <div className="flex flex-col items-center w-100 mb-10 rounded-lg">
           <img
             className="mt-5 mb-5 w-1/2"
             src="/img/illustrations/magiouslanding.png"
           ></img>
-          
-        
         </div>
-        
+
         <div className="flex flex-row flex-wrap justify-center w-100 mt-10 mb-20">
           <div className="flex flex-col items-center justify-center">
-            <img 
-            className="mt-5 mb-5 w-1/2"
-            src="/img/illustrations/magiousmagazines.jpg" />
-            
+            <img
+              className="mt-5 mb-5 w-1/2"
+              src="/img/illustrations/magiousmagazines.jpg"
+            />
           </div>
           <div className="flex flex-col items-center justify-center">
-            <img 
-            className="mt-5 mb-5 w-1/2"
-            src="/img/illustrations/magiousarticles.jpg" />
-           
+            <img
+              className="mt-5 mb-5 w-1/2"
+              src="/img/illustrations/magiousarticles.jpg"
+            />
           </div>
         </div>
         <p>
-          We maintained a tight collaboration which helped us finance our studies until moving to Edinburgh to study.
+          We maintained a tight collaboration which helped us finance our
+          studies until moving to Edinburgh to study.
         </p>
         <div className="flex flex-col items-center w-100 my-10">
-          <img className="mt-5 mb-2 w-2/5" src="/img/illustrations/magiouspresent.png" />
-        
+          <img
+            className="mt-5 mb-2 w-2/5"
+            src="/img/illustrations/magiouspresent.png"
+          />
         </div>
-     </div>
-   </div>
+      </div>
     </Layout>
   );
 };
