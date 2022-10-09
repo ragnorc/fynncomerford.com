@@ -68,7 +68,7 @@ function Layout({ title = "Fynn Comerford", children }) {
               </Link>
 
               <div className="text-black  flex items-center justify-between hidden lg:block xl:block">
-                <ActiveLink activeClassName="text-primary" href="/">
+                <ActiveLink activeClassName="text-primary" href="/" exact>
                   <a className={`ml-5 hover:text-primary`}>home</a>
                 </ActiveLink>
                 <ActiveLink activeClassName="text-primary" href="/about">
@@ -89,7 +89,7 @@ function Layout({ title = "Fynn Comerford", children }) {
                 </ActiveLink>
               </div>
             </div>
-          </header>/
+          </header>
           {children}
         </div>
         <div className="flex items-center justify-center py-10 mt-40">
@@ -129,7 +129,7 @@ function Layout({ title = "Fynn Comerford", children }) {
               </a>
             </div>
             <p className="mt-12 text-gray-700">
-              Fynn Comerford © 2020 All rights reserved.
+              Fynn Comerford © 2022 All rights reserved.
             </p>
           </div>
         </div>
@@ -151,13 +151,12 @@ function Layout({ title = "Fynn Comerford", children }) {
             <ActiveLink activeClassName="text-primary" href="/work">
               <a>projects</a>
             </ActiveLink>
-             <ActiveLink activeClassName="text-primary" href="/work">
+             <ActiveLink activeClassName="text-primary" href="/work/publications">
               <a>publications</a>
             </ActiveLink>
-            <ActiveLink activeClassName="text-primary" href="/work/publications.jd">
+            <ActiveLink activeClassName="text-primary" href="/collections">
               <a>collections</a>
             </ActiveLink>
-            
             <ActiveLink activeClassName="text-primary" href="/blog">
               <a>thougts</a>
             </ActiveLink>
