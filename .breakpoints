@@ -1,5 +1,13 @@
 {
   "files": {
+    "components/layout.js": [
+      {
+        "id": "26612501-b372-43ad-9fe5-cf442cf2fc2d",
+        "line": 143,
+        "version": 308,
+        "index": 5177
+      }
+    ],
     "pages/index.js": [
       {
         "id": "2b538b34-2aa0-4651-9ce3-8513dfcce999",
