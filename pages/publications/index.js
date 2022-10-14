@@ -30,7 +30,7 @@ export default () => {
        <h2>Papers</h2>
       <br />
       <a 
-      class="underline"
+      class=""
     href="https://ieeexplore.ieee.org/document/9251019">Comerford, F., Comerford, R., Hussain Z., Ng, N., Hussain, A., Khan, A., Lees, C. A., "A Comparison of Machine Learning Approaches for Predicting the Progression of Crohn's Disease, Batu Pahat, Johor, Malaysia, 2020, pp. 529-533,  https://ieeexplore.ieee.org/document/9251019, doi: 10.1109/SCOReD50371.2020.9251019.
       </a>
     

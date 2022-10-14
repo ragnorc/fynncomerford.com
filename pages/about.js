@@ -61,8 +61,8 @@ export default () => {
           <span className="text-primary">a</span>bout
         </h1>
         <p>
-          Hi! 2why s euwonfondeI'm Fynn. I just finished my undergraduate degree in  Neuroscience at
-          the University of Edinburgh where I've been equipped tools to explore the potential of biotechnology. I believe ut is in our economic and technological grasp to reduce suffering by developing therapies and cures to alleviate suffering from the world's most devastating diseases. This is something I want to dedicate my professional life to. 
+          Hi! I'm Fynn. I just finished my undergraduate degree in  Neuroscience at
+          the University of Edinburgh where I've been equipped tools to explore the potential of biotechnology. I believe it is in our economic and technological grasp to reduce suffering by developing therapies and cures to alleviate suffering from the world's most devastating diseases. This is something I want to dedicate my professional life to. 
         </p>
        
         <p>
@@ -70,13 +70,6 @@ export default () => {
         </p>
         <div className="w-full mt-20">
 
-            <TimelineItem
-          left
-          image="/img/illustrations/learning.svg"
-          minWidth="auto"
-          text={<p>Currently, I'm sharpening my toolkit in San Francisco.</p>}
-
-              />
           
              <TimelineItem
           right
@@ -88,7 +81,7 @@ export default () => {
           left
           image="/img/illustrations/conference.svg"
           minWidth="auto"
-          text={<p>In 2021, I organized and hosted<a target="https://edventure.vc/emerge" className="underline">edventure emerge</a>edventure emerge</p>} 
+          text={<p>In 2021, I organized and hosted<a target="https://edventure.vc/emerge" className="underline"> edventure emerge.</a></p>} 
         />
 
         <TimelineItem
@@ -102,7 +95,7 @@ export default () => {
           left
           image="/img/illustrations/medicalresearch.svg"
           minWidth="auto"
-          text={<p>I also had the chance to participate in<a href="/work/igem" className="underline">iGEM</a>.</p>} 
+          text={<p>I also had the chance to participate in<a href="/work/igem" className="underline"> iGEM</a>.</p>} 
         />
 
         <TimelineItem
@@ -116,7 +109,7 @@ export default () => {
           left
           image="/img/illustrations/video.svg"
           minWidth="auto"
-          text={<p>Meanwhile, I developed a great passion for filmmaking. <a href="/work/films" className="underline"s>Here's</a>what I've created.</p>} 
+          text={<p>Meanwhile, I developed a great passion for filmmaking. <a href="/work/films" className="underline"s>Here's </a>what I've created.</p>} 
         />
        
         <TimelineItem
@@ -134,20 +127,20 @@ export default () => {
           right
           image="/img/illustrations/plane.svg"
           minWidth="auto"
-          text={<p>Before university, I travelled through Europe, Asia and South America. <a href="/work/blog" className="underline"s>Here's</a>what I experienced and learned.</p>} 
+          text={<p>Before university, I travelled through Europe, Asia and South America. <a href="/work/blog" className="underline"s>Here's </a>what I experienced and learned.</p>} 
         />
           
           <TimelineItem
             left
             image="/img/illustrations/graduate.svg"
             minWidth="auto"
-            text="In 2017, I graduated valedictorian from high school"
+            text="In 2017, I graduated valedictorian from high school."
           />
         <TimelineItem
             right
             image="/img/illustrations/magiousbook.svg"
             minWidth="auto"
-            text={<p>In 2015, I started my first company,<a href="/work/magious" className="underline">Magious</a>.</p>}
+            text={<p>In 2015, I started my first company, <a href="/work/magious" className="underline">Magious</a>.</p>}
           />
       </div>
       </div>
