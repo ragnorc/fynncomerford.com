@@ -17,169 +17,180 @@ export default ({ items, heading }) => {
 André Aciman
           <br />
         </a>
+         <a target="_blank" className="">
         
+          <span class="italic"> Genentech, </span>
+Sally Smith Hughes
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> Deep Medicine, </span>
+Eric Topol 
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> The Art of Thinking Clearly, </span>
+Ralf Dobelli 
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> Lifespan, </span>
+David Sinclair
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> The Little Book of Stoicism, </span>
+Jonas Salzberger
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> Life Lessons From The Monk Who Sold His Ferrari, </span>
+Robin Sharma
+          <br />
+        </a>
+
+         <a target="_blank" className="">
+        
+          <span class="italic"> How Not To Die, </span>
+Michael Greger
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic">Where The Crawdads Sing, </span>
+Delia Owen
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> The Song of Achilles, </span>
+Madeleine Miller 
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> The Kite Runner, </span>
+Khaled Hosseini
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> Full Catastrophe Living, </span>
+Jon Kabat-Zinn
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> The Man Who Mistrook His Wife For A Hat, </span>
+Oliver Sacks
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic"> Man's Search For Meaning, </span>
+Viktor Frankl
+          <br />
+        </a>
+
+         <a target="_blank" className="">
+        
+          <span class="italic"> A Short History of Nearly Everything, </span>
+Bill Bryson
+          <br />
+        </a>
         <a target="_blank" className="">
-         <span class="italic"> A crack in creation, </span>
-           Jennifer A. Doudna 
-      
+        
+          <span class="italic">The Art Of Happiness, </span>
+Dalai Lama XIV
+          <br />
+        </a>
+         <a target="_blank" className="">
+        
+          <span class="italic">The Art Of Happiness, </span>
+Dalai Lama XIV
+          <br />
+        </a>
+
+         <a target="_blank" className="">
+        
+          <span class="italic">The Gene, </span>
+Siddhartha Mukherje
+          <br />
+        </a>
+
+         <a target="_blank" className="">
+        
+          <span class="italic">Why We Sleep, </span>
+Matthew Walker
+          <br />
+        </a>
+        <a target="_blank" className="">
+        
+          <span class="italic">The Body Keeps The Score, </span>
+Bessel Van Der Kolk 
+          <br />
+        </a>
+        <a target="_blank" className="">
+        
+          <span class="italic">What Happened To You, </span>
+Bruce Perry 
+          <br />
+        </a>
+
+         <a target="_blank" className="">
+        
+          <span class="italic">Shake Hands With The Devil, </span>
+Romeo Dallaire
+          <br />
+        </a> <a target="_blank" className="">
+        
+          <span class="italic">Regenesis, </span>
+George Church
+          <br />
+        </a>
+        <a target="_blank" className="">
+        
+          <span class="italic">Range, </span>
+David Epstein
+          <br />
+        </a>
+        <a target="_blank" className="">
+        
+          <span class="italic">The Selfish Gene, </span>
+Richard Dawkins
+          <br />
+        </a>
+       
+        <a target="_blank" className="">
+        
+          <span class="italic">A Crack In Creation, </span>
+Jennifer Doudna
+          <br />
+        </a>
+        <a target="_blank" className="">
+        
+          <span class="italic">The Power Of Habit, </span>
+Charles Duhigg
           <br />
         </a>
         
-        <a target="_blank" className="">
-        <span class="italic"> The man who mistook his wife for a hat, </span>
-         Oliver Sacks
-
- 
-  
-          <br />
-        </a>
         
-        <a target="_blank" className="">
-         <span class="italic"> We should all be feminists,</span> Chimamanda Ngozi Adichie
-      
-          <br />
-        </a>
         
-        <a target="_blank" className="">
-          <span class="italic">Homo Deus and Homo Sapiens,</span> Yuval Noah Harari 
-      
-          <br />
-        </a>
         
-        <a target="_blank" className="">
-          <span class="italic">Shake hands with the devil,</span> Roméo Dallaire 
-      
-          <br />
-        </a>
         
-        <a target="_blank" className="">
-          <span class="italic">The Gene,</span> Siddhartha Mukherje
-      
-          <br />
-        </a>
         
-        <span class="italic">Deep Medicine,</span> Eric Topol
-        <br />
         
-        <a target="_blank" className="">
-          <span class="italic">The Omnivores Dilemma,</span> Michael Pollan 
-      
-        <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> Why We Sleep, </span>
-         Matthew Walker 
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-          <span class="italic">Buddha's Brain,</span> Rick Hanson 
-      
-        <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> The Art of Happiness, </span>
-         Dalai Lama XIV & Samuel Sternberg 
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> The Art of Thinking Clearly, </span>
-         Rolf Dobelli 
-      
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> The Happiness Project, </span>
-         Gretchen Rubin  
-      
-
- 
-  
-          <br />
-        </a><a target="_blank" className="">
-        <span class="italic"> Zero to Five, </span>
-         Pether Thiel and Blake Master 
-      
-
- 
-  
-          <br />
-        </a><a target="_blank" className="">
-        <span class="italic"> The Climb, </span>
-         Anatoli Boukreev and G, Weston DeWalt  
-      
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> Full Catastrophe Living, </span>
-         Jon Kabat-Zinn  
-      
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> I am Malala, </span>
-         Malala Yousafzai  
-      
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> The Undoing Project, </span>
-         Michael Lewis  
-      
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> The Odyssey, </span>
-         Homer  
-      
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> The Cider House Rules, </span>
-         John Irving  
-      
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> The Brain that Changes Itself, </span>
-         Norman Doidge  
-      
-
- 
-  
-          <br />
-        </a>
-        <a target="_blank" className="">
-        <span class="italic"> The Power of Habit, </span>
-         Charles Duhigg  
-      
-
+        
+        
+        
+        
+        
+        
  
   
           <br />
