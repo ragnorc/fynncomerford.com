@@ -194,7 +194,7 @@ Charles Duhigg
  
   
           <br />
-        </a>
+        
         <br />
         <br />
         <br />
