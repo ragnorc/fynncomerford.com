@@ -21,11 +21,11 @@ export default () => {
     
       <h1> Publications </h1>
       <br />
-      <br />
+    
       
       <h4>Here is an overview of some research papers,   articles and essays I have published.</h4>
       <br /> 
-      <br />
+    
 
        <h2>Papers</h2>
       <br />

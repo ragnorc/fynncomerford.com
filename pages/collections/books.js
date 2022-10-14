@@ -111,8 +111,8 @@ Dalai Lama XIV
         </a>
          <a target="_blank" className="">
         
-          <span class="italic">The Art Of Happiness, </span>
-Dalai Lama XIV
+          <span class="italic">The Patient Will See You Now, </span>
+Eric Topol
           <br />
         </a>
 

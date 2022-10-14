@@ -34,17 +34,17 @@ export default () => {
           >
             <ListItem
               icon={<Book></Book>}
-              title="Books"
+              title="To Read"
               href="/collections/books"
             ></ListItem>
             <ListItem
               icon={<Video></Video>}
-              title="Movies and Series"
+              title="To Watch"
               href="/collections/movies"
             ></ListItem>
             <ListItem
               icon={<User></User>}
-              title="People"
+              title="To Meet"
               href="/collections/peoples"
             ></ListItem>
             <ListItem
