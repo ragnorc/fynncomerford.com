@@ -68,7 +68,7 @@ export default () => {
           Innovations, Bayes Centre) and even Cancer Research UK to run
           incubators for their network. For Cancer Research UK, we developed
           incubators that helped oncologist and cancer researchers translate to
-          their research to therapeutics..{" "}
+          their research to therapeutics.kcwkjdbkeqbdkqbjed.{" "}
         </p>
         <div className="flex flex-col items-center w-100 mb-10 rounded-lg">
           <img
