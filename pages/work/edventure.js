@@ -70,36 +70,6 @@ export default () => {
           incubators that helped oncologist and cancer researchers translate to
           their research to therapeutics.{" "}
         </p>
-        <div className="flex flex-col items-center w-100 mb-10 rounded-lg">
-          <img
-            className="mt-5 mb-5 w-1/2"
-            src="/img/illustrations/magiouslanding.png"
-          ></img>
-        </div>
-
-        <div className="flex flex-row flex-wrap justify-center w-100 mt-10 mb-20">
-          <div className="flex flex-col items-center justify-center">
-            <img
-              className="mt-5 mb-5 w-1/2"
-              src="/img/illustrations/magiousmagazines.jpg"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <img
-              className="mt-5 mb-5 w-1/2"
-              src="/img/illustrations/magiousarticles.jpg"
-            />
-          </div>
-        </div>
-        <p>
-          We maintained a tight collaboration which helped us finance our
-          studies until moving to Edinburgh to study.
-        </p>
-        <div className="flex flex-col items-center w-100 my-10">
-          <img
-            className="mt-5 mb-2 w-2/5"
-            src="/img/illustrations/magiouspresent.png"
-          />
         </div>
       </div>
     </Layout>

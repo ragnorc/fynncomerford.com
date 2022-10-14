@@ -27,7 +27,7 @@ export default () => {
                 <div className="flex w-full justify-center items-center h-48 xxl:h-64">
                   <img className="w-1/5 h-auto " src="/img/illustrations/magiouswork.svg" />
                   <div className="border-l-2 h-10 border-black mx-5 rounded-xl"></div>
-                  <h2 className="text-lg">Preclinical research of Ms therapies, Lyons Lab</h2>
+                  <h2 className="text-lg">Honours Research, Multiple Sclerosis</h2>
                 </div>
               </div>
             </a>
@@ -90,7 +90,7 @@ export default () => {
                   <img className="w-1/6 h-auto" src="img/illustrations/video.svg" />
 
                   <div className="border-l-2 h-10 border-black mx-5"></div>
-                  <h2 className="text-lg">Amygdala Studios
+                  <h2 className="text-lg">amygdala studios
               </h2>
                 </div>
               </div>

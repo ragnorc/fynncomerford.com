@@ -49,6 +49,8 @@ Student teams are given a kit (so called ‘Distribution Kit’) of standard, in
 
          <h4 class="my-3">What we did? </h4>
                         <p class="text-muted"> I had the pleasure to join a fantastic team represing The University of Edinburgh in the competition. We developed "Finding Nemo", a transcription-only, cell-free biosensor. Our aim was to apply this biosensor to the testing of water for environmental polutants such as arsenic as well as microbial pathogens. </p>
+
+        
         
 
        <video width="1186px" height="691px" controls>
